@@ -1,4 +1,3 @@
-
 <!-- data/dlcEvents.xml -->
 <text name="event_STORE_REBELSIDE_c1_choice">Search among the stores to see if someone will sell to you. [ Store | RStd | x2 Auto SF DR ]</text>
 <text name="event_STORE_REBELSIDE_c2_choice">Leave. [ Nil ]</text>
@@ -119,7 +118,6 @@
 <text name="text_START_BEACON_LANIUS_2">This sector was the site of many major battles between the Federation and Rebel fleets. Strangely, there's very little evidence of those battles remaining... [ 2 Stores, 1-2 Empty, 1-2 Distress, 5-6 Hostile, 1-2 Hostile Envs, 1-2 Boarder, 2-4 Items, 0-1 Quests, 5-6 Neutral ]</text>
 <text name="text_START_BEACON_LANIUS_3">There have been a number of reports of advanced ships salvaging the wrecks and abandoned mining facilities in this sector. Could it be that the Lanius have resurfaced? [ 2 Stores, 1-2 Empty, 1-2 Distress, 5-6 Hostile, 1-2 Hostile Envs, 1-2 Boarder, 2-4 Items, 0-1 Quests, 5-6 Neutral ]</text>
 <text name="text_START_BEACON_LANIUS_4">The war tore through this civilian sector, and just recently even the few life signs that remained have begun blinking out. Rumours suggest the Lanius are responsible. [ 2 Stores, 1-2 Empty, 1-2 Distress, 5-6 Hostile, 1-2 Hostile Envs, 1-2 Boarder, 2-4 Items, 0-1 Quests, 5-6 Neutral ]</text>
-
 
 <!-- data/events.xml -->
 <text name="event_ALISON_DEFECTOR_c1_c1_choice">Accept his proposal, and prepare to fight the Rebel ship. [ -3 Hull, Fleet+, Rbl SF DR | 2 Human Boarders, -3 Hull, Rbl SF DR | x3 HumanCrew+ Rbl SF DR | 1 Human Boarder, Rbl SF DR, Crew- (CB+)</text>
@@ -567,6 +565,9 @@
 <text name="event_NEBULA_ROCK_RACIST_c3_choice">(Rock crewmember) Offer to lead them out of the nebula. [ HStd ]</text>
 <text name="event_NEBULA_WEAPONS_TRADER_LIST_2_c1_choice">Attack the ship! [ Prt SF DR; S: 0.5, 3-4, RStuff; Esc: 0.5, 2-4 ]</text>
 <text name="event_NEBULA_WEAPONS_TRADER_LIST_2_c2_choice">Learn a valuable lesson and move on. [ Nil ]</text>
+<text name="event_NEBULA_WEAPONS_TRADER_LIST2_1_c1_choice">Buy the weapon. [ -45 Scrap, Weapon ]</text>
+<text name="event_NEBULA_WEAPONS_TRADER_LIST2_1_c2_choice">Decline. [ Nil ]</text>
+<text name="event_NEBULA_WEAPONS_TRADER_LIST2_2_text">Once "convinced" to help, he casually states that his offer was actually a lie and that they planned to attack your ship. By the time he returns to his senses you've already prepared your ship to fight. [ Prt SF DR; S: 0.5, 3-4, RStuff; Esc: 0.5, 2-4 ]</text>
 <text name="event_NEBULA_WEAPONS_TRADER_c1_choice">Ignore the ship. [ Nil ]</text>
 <text name="event_NEBULA_WEAPONS_TRADER_c2_choice">Attack the ship. [ Prt SF DR; S: 0.5, 3-4, RStuff; Esc: 0.5, 2-4 ]</text>
 <text name="event_NEBULA_WEAPONS_TRADER_c3_choice">Purchase an unknown weapon for 45 scrap. [ -45 Scrap, Weapon | -45 Scrap [ Prt SF DR or Nil ] ]</text>
