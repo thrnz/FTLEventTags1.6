@@ -1,13 +1,15 @@
 # FTLEventTags
 
-What are the chances of losing crew to Giant Alien Spiders? Which Blue Option gives the best reward? When is a Crew Kill no better than a Ship Kill?
+When is a Crew Kill no better than a Ship Kill? Which Blue Option gives the best reward? What are the chances of losing crew to Giant Alien Spiders?
 
-This mod tags dialogue to show the possible outcomes of various ingame choices and events. It doesn't effect the gameplay mechanics themselves in any way.
+This mod tags approximately 1000 lines of in-game dialogue to show the possible outcomes of various choices and events. No information is displayed that can't otherwise be found in the game files, or from Googling dialogue. It doesn't effect the gameplay mechanics themselves in any way.
 
 This mod is useful for players wanting to learn the possible results of ingame events. It is also useful for players wanting to play optimally without having to refer to the wiki or XML diving.
 
 ## Notes
- * Mostly complete. Would like to complete a double check of all tags before release.
+ * Mostly complete. I would like to complete a double check of all tags before release.
+ * To avoid giving players an unfair advantage, some dialogue remains untagged or tagged ambiguously. For example the outcomes of the real/decoy Rebel ship fights in the Engi Homeworlds quest, or the 'moon counting' event.
+ * I'm unsure what the 'chance', 'min', 'max', and 'timer' values actually mean for surrenders and escapes, but have tagged them anyway 'as is' from the XMLs.
  * Works with FTL v1.6.2
 
 ## To-do
