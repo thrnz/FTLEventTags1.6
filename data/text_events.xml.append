@@ -1030,6 +1030,8 @@
 <text name="event_TERRAFORMING_SCAN_c1_c2_choice">(Advanced Sensors) Set sensors to maximum and scan. [ +1 Oxygen | Prt SF DR | More... ]</text>
 <text name="event_TERRAFORMING_SCAN_c1_c3_choice">(Zoltan) Send your crewman to overcharge their systems. [ +1 Oxygen | Prt SF DR | More... ]</text>
 <text name="event_TERRAFORMING_SCAN_c2_choice">You do not have time. [ Nil ]</text>
+<text name="event_TRADER_UPGRADES_EXCHANGE_c1_choice">Agree to the trade. [ Reactor +1 ]</text>
+<text name="event_TRADER_UPGRADES_EXCHANGE_c2_choice">Respectfully decline. [ Nil ]</text>
 <text name="event_WRECKAGE_EVENT_c1_choice">(Improved Sensors) Use your Sensors to scan the wreckage. [ MStuff ]</text>
 <text name="event_WRECKAGE_EVENT_c2_choice">(Advanced Sensors) Use your Sensors to scan the wreckage. [ HStuff | LScrapWeapon ]</text>
 <text name="event_WRECKAGE_EVENT_c3_choice">Investigate the battlefield. [ x5 Nil | MStuff | Mts SF DR | Rbl SF DR; S: 0.5, 2-3, RStuff; Esc: 0.5, 3-4 | Ztn SF DR ]</text>
