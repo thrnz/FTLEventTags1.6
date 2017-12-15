@@ -785,6 +785,11 @@
 <text name="ship_ZOLTAN_SCIENCE_DOCK_surrender_text">The Zoltan captain sends an urgent hail: "Wait, this was all a test! A test that you passed! A diverse crew, working together, surely a sight to warm the heart of any dispassionate observer. Come, I shall join your crew!" [ LStd, ZoltanCrew+ ]</text>
 
 <!-- data/events_slug.xml -->
+<text name="event_BATTLEFIELD_INVESTIGAGE_5_c1_choice">Assist the survivor. [ More ... ]</text>
+<text name="event_BATTLEFIELD_INVESTIGAGE_5_c2_choice">Leave the battlefield before other ships arrive. [ Nil ]</text>
+<text name="event_BATTLEFIELD_SURVIVOR_c1_choice">Make them comfortable for their final moments. [ Abadoth Quest ]</text>
+<text name="event_BATTLEFIELD_SURVIVOR_c2_choice">(Advanced Medbay) Get them into the medbay! [ Crew+ ]</text>
+<text name="event_BATTLEFIELD_SURVIVOR_c3_choice">(Clonebay) Try to clone them before it's too late. [ Crew+ ]</text>
 <text name="event_NEBULA_BATTLEFIELD_c1_c1_choice">Assist the survivor. [ More... ]</text>
 <text name="event_NEBULA_BATTLEFIELD_c1_c2_choice">Leave the battlefield before other ships arrive. [ Nil ]</text>
 <text name="event_NEBULA_BATTLEFIELD_c1_choice">(Slug Crew) Ask your Slug crew to scan for survivors. [ Abadoth Quest or BOs for Crew+ ]</text>
