@@ -1002,7 +1002,7 @@
 <text name="event_REFUGEE_HAIL_LIST_3_text">As you hail the refugee ship, a pirate ship jumps into the system... it was using the refugee ship as bait! [ Prt SF K: MStd, CK: HStd, DB: LStd ]</text>
 <text name="event_REFUGEE_HAIL_LIST_4_text">As you hail the refugee ship, a Slug ship jumps into the system... it was hunting the refugee ship for sport and now they've found you instead! [ Slg SF K: MStd, CK: HStd, DB: LStd ]</text>
 <text name="event_REFUGEE_HAIL_LIST_PIRATE_1_text">As you hail the refugee ship, a pirate ship jumps into the system... it was using the refugee ship as bait! [ Prt SF K: MStd, CK: HStd, DB: LStd ]</text>
-<text name="event_REFUGEE_HAIL_LIST_SLUG_1_text">As you hail the refugee ship, a pirate ship jumps into the system... it was using the refugee ship as bait! [ Slg SF K: MStd, CK: HStd, DB: LStd ]</text>
+<text name="event_REFUGEE_HAIL_LIST_SLUG_1_text">As you hail the refugee ship, a pirate ship jumps into the system... it was using the refugee ship as bait! [ Prt SF K: MStd, CK: HStd, DB: LStd ]</text>
 <text name="event_REFUGEE_HAIL_LIST_ZOLTAN_1_text">As you hail the refugee ship, a Zoltan ship suddenly jumps into the system... it claims the refugees are criminals, and accuses you of escorting fugitives! Before you can respond, it cuts communications, and powers up its weapons! [ Ztn SF K: MStd, CK: HStd, DB: LStd ]</text>
 <text name="event_REFUGEE_NO_DISTRESS_c1_choice">Hail them. [ x4 Resource Trade | x4 SF ]</text>
 <text name="event_REFUGEE_NO_DISTRESS_c2_choice">Ignore the refugees. [ Nil ]</text>
