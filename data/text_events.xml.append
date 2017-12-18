@@ -1008,7 +1008,7 @@
 <text name="event_REFUGEE_NO_DISTRESS_c2_choice">Ignore the refugees. [ Nil ]</text>
 <text name="event_REFUGEE_NO_DISTRESS_PIRATE_c1_choice">Hail them. [ Resource Trade | Prt SF K: MStd, CK: HStd, DB: LStd ]</text>
 <text name="event_REFUGEE_NO_DISTRESS_PIRATE_c2_choice">Ignore the refugees. [ Nil ]</text>
-<text name="event_REFUGEE_NO_DISTRESS_SLUG_c1_choice">Hail them. [ Resource Trade | Slg SF K: MStd, CK: HStd, DB: LStd ]</text>
+<text name="event_REFUGEE_NO_DISTRESS_SLUG_c1_choice">Hail them. [ Resource Trade | Prt SF K: MStd, CK: HStd, DB: LStd ]</text>
 <text name="event_REFUGEE_NO_DISTRESS_SLUG_c2_choice">Ignore the refugees. [ Nil ]</text>
 <text name="event_REFUGEE_NO_DISTRESS_ZOLTAN_c1_choice">Hail them. [ Resource Trade | Ztn SF K: MStd, CK: HStd, DB: LStd ]</text>
 <text name="event_REFUGEE_NO_DISTRESS_ZOLTAN_c2_choice">Ignore the refugees. [ Nil ]</text>
