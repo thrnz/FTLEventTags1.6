@@ -2,7 +2,15 @@
 
 When is a Crew Kill no better than a Ship Kill? Which Blue Option gives the best reward? What are the chances of losing crew to Giant Alien Spiders?
 
-This mod tags approximately 1000 lines of in-game dialogue to show the possible outcomes of various choices and events. No information is displayed that can't otherwise be found in the game files, or from Googling dialogue. It doesn't effect the gameplay mechanics themselves in any way.
+This mod tags approximately 1000 lines of in-game text to show the possible outcomes of various choices and events. No information is displayed that can't otherwise be found in the game files, or from Googling dialogue. It doesn't effect the gameplay mechanics themselves in any way.
+
+Tags include: 
+* Choice outcomes, including Blue Options
+* Rewards from ship/crew kills
+* Surrender/escape triggers and timers
+* Enemy ship classes
+* Weapon effect (breach/stun/fire) chances (added to weapon descriptions)
+* Beacon count (Stores/Empty/Nebula etc) per sector type (added to the first beacon of each sector)
 
 This mod is useful for players wanting to learn the possible results of ingame events. It is also useful for players wanting to play optimally without having to refer to the wiki or XML diving.
 
@@ -30,7 +38,7 @@ This mod is useful for players wanting to learn the possible results of ingame e
 * Fleet+/-: Fleet advance/delay
 * x2, x3: Number of times an identical event is in the event pool
 * Nil: Nothing happens
-* More...: More options follow. Should always be safe to click.
+* More...: More options follow. Used to avoid excessively long tags. Should always be safe to click. The worst that can happen will be a ship fight.
 * Rbl: Rebel class ship
 * Prt: Pirate class ship
 * Fed: Federation class ship
@@ -40,14 +48,15 @@ This mod is useful for players wanting to learn the possible results of ingame e
 * Ztn - Zoltan class ship
 * Slg - Slug class ship
 * Rck - Rock class ship
-* Lns - Lanius class ship fight
-* Cry - Crystal class ship fight
+* Lns - Lanius class ship
+* Cry - Crystal class ship
 * PZtl, PRck - Pirate class Zoltan/Rock ship etc.
  
 
 ## Rewards
 * L/M/H/R Prefix: Low/Medium/High/Random
 * Std: Standard Rewards (Srap + 2 random resources + small chance of augment/weapon/drone)
+* Stuff: Less scrap, but more resources.
 * ScrapFuel: Scrap + Fuel
 * ScrapMiss: Scrap + Missiles
 * ScrapDrones: Scrap + Drones
