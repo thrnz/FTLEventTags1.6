@@ -782,6 +782,7 @@
 <text name="ship_SLUG_DISTRESS_MANTIS_destroyed_c2_choice">Finish them off. [ LScrapAugment | RStd ]</text>
 <text name="ship_SQUAT_PIRATE_MERCENARY_surrender_c1_choice">Let them live and then return to the settlement. [ MScrapWeapon ]</text>
 <text name="ship_SQUAT_PIRATE_MERCENARY_surrender_c2_choice">Forget your promise, they die! [ K: LStd, CK: LStd ]</text>
+<text name="ship_SQUAT_WARNING_escape_text">They are powering up their FTL! If they get away, they will no doubt warn the fleet of your position! [ Rbl SF K: MStd; CK: MStd; Esc: 22-22, 40s, Fleet+ ]</text>
 <text name="ship_ZOLTAN_SCIENCE_DOCK_surrender_text">The Zoltan captain sends an urgent hail: "Wait, this was all a test! A test that you passed! A diverse crew, working together, surely a sight to warm the heart of any dispassionate observer. Come, I shall join your crew!" [ LStd, ZoltanCrew+ ]</text>
 
 <!-- data/events_slug.xml -->
@@ -833,7 +834,7 @@
 <text name="event_SLUG_DISTRESS_PILOTING_c1_choice">Swear allegiance. [ Nil | SlugCrew+ ]</text>
 <text name="event_SLUG_DISTRESS_PILOTING_c2_choice">Never! [ Slg SF Engines@1, K: MStd, CK: HStd ]</text>
 <text name="event_SLUG_DISTRESS_PILOTING_c3_choice">(Improved Piloting) Override his control. [ Slg SF K: MStd, CK: HStd ]</text>
-<text name="event_SLUG_DISTRESS_PILOTING_c4_choice">(Hacking System) Counter the remote hacking. [ Slg SF Hacking@0, K: Mstd, CK: HStd ]</text>
+<text name="event_SLUG_DISTRESS_PILOTING_c4_choice">(Hacking System) Counter the remote hacking. [ Slg SF Hacking@0, K: MStd, CK: HStd ]</text>
 <text name="event_SLUG_DISTRESS_RESCUE_c1_choice">Hire Slocknog. [ -55 Scrap, SlugCrew+ ]</text>
 <text name="event_SLUG_DISTRESS_RESCUE_c2_choice">Ignore Slocknog. [ SlugCrew+ or Nil ]</text>
 <text name="event_SLUG_DISTRESS_ROCK_c1_choice">Engage the Slug ship. [ Slg SF K: MStd, CK: MStd, DB: [ x2 Nil | MStd ] ]</text>
