@@ -4,20 +4,20 @@
 <text name="event_STORE_REBELSIDE_c3_choice">(Mind Control) Alter the announcer's opinions. [ Store ]</text>
 <text name="event_STORE_REBELSIDE_c4_choice">(Improved Mind Control) Alter the announcer's opinions. [ MStd, Store ]</text>
 <text name="event_STORE_REBELSIDE_c5_choice">(Advanced Mind Control) Alter the announcer's opinions. [ HStd, Store ]</text>
-<text name="text_PIRATE_PULSAR_TEXT_1">Sensors go wild as a nearby pulsar is detected. While you are attempting to recalibrate the FTL drive, a pirate sneaks up on your ship, weapons charging. Prepare for a fight! [ Prt SF DR; S: 0.5, 3-4, RStuff; Esc: 0.5, 2-4 ]</text>
-<text name="text_PIRATE_PULSAR_TEXT_2">You arrive to find a pulsar dominating the view screen. You see a small silhouette pass in front of the star. Before you can ponder what it is, warning signals go off. It appears to be a ship in a firing trajectory! [ Prt SF DR; S: 0.5, 3-4, RStuff; Esc: 0.5, 2-4 ]</text>
-<text name="text_PIRATE_PULSAR_TEXT_3">A small research station orbits a nearby pulsar. It appears largely abandoned, but you detect power signatures flaring up as soon as you're in scanning distance. A small combat ship launches from the station. Pirates! [ Prt SF DR; S: 0.5, 3-4, RStuff; Esc: 0.5, 2-4 ]</text>
-<text name="text_REBEL_PULSAR_TEXT_1">A Rebel captain appears on the screen. "I thought we had been doomed to backwater assignments. This is my chance to get back in Command's good graces! Charge the weapons!" [ Rbl SF DR; S: 0.5, 2-3, RStuff; Esc: 0.5, 3-4 ]</text>
-<text name="text_REBEL_PULSAR_TEXT_2">A small rebel research station overlooks a pulsating star. Before you can react a Rebel ship spots you and moves in to attack. [ Rbl SF DR; S: 0.5, 2-3, RStuff; Esc: 0.5, 3-4 ]</text>
-<text name="text_REBEL_PULSAR_TEXT_3">You arrive at an infrequently used beacon close to a pulsar. Before long a Rebel ship happens to jump nearby. Looks like you'll have to fight. [ Rbl SF DR; S: 0.5, 2-3, RStuff; Esc: 0.5, 3-4 ]</text>
+<text name="text_PIRATE_PULSAR_TEXT_1">Sensors go wild as a nearby pulsar is detected. While you are attempting to recalibrate the FTL drive, a pirate sneaks up on your ship, weapons charging. Prepare for a fight! [ Prt SF DR w/Pulsar; S: 0.5, 3-4, RStuff; Esc: 0.5, 2-4 ]</text>
+<text name="text_PIRATE_PULSAR_TEXT_2">You arrive to find a pulsar dominating the view screen. You see a small silhouette pass in front of the star. Before you can ponder what it is, warning signals go off. It appears to be a ship in a firing trajectory! [ Prt SF DR w/Pulsar; S: 0.5, 3-4, RStuff; Esc: 0.5, 2-4 ]</text>
+<text name="text_PIRATE_PULSAR_TEXT_3">A small research station orbits a nearby pulsar. It appears largely abandoned, but you detect power signatures flaring up as soon as you're in scanning distance. A small combat ship launches from the station. Pirates! [ Prt SF DR w/Pulsar; S: 0.5, 3-4, RStuff; Esc: 0.5, 2-4 ]</text>
+<text name="text_REBEL_PULSAR_TEXT_1">A Rebel captain appears on the screen. "I thought we had been doomed to backwater assignments. This is my chance to get back in Command's good graces! Charge the weapons!" [ Rbl SF DR w/Pulsar; S: 0.5, 2-3, RStuff; Esc: 0.5, 3-4 ]</text>
+<text name="text_REBEL_PULSAR_TEXT_2">A small rebel research station overlooks a pulsating star. Before you can react a Rebel ship spots you and moves in to attack. [ Rbl SF DR w/Pulsar; S: 0.5, 2-3, RStuff; Esc: 0.5, 3-4 ]</text>
+<text name="text_REBEL_PULSAR_TEXT_3">You arrive at an infrequently used beacon close to a pulsar. Before long a Rebel ship happens to jump nearby. Looks like you'll have to fight. [ Rbl SF DR w/Pulsar; S: 0.5, 2-3, RStuff; Esc: 0.5, 3-4 ]</text>
 
 <!-- data/dlcEventsOverwrite.xml -->
 <text name="event_OVERRIDE_FEDERATION_BASE_ASSIST_1_text">You arrive in the sector to see a small outpost being bombarded by an automated drone. This must be the Federation base you were told about! [ Auto SF K: LStd, DB: [ Crew+, +7 Hull, HStd | LScrapWeapon, Crew+ ] ]</text>
-<text name="event_OVERRIDE_FEDERATION_BASE_ASSIST_3_text">You arrive in the sector to see the Federation outpost under fire from multiple Rebel ships. However, as you approach they get their Anti-Ship Battery online and disable two of the smaller ships. You swoop in to assist, taking down the wing leader. [ Friendly ASB, Rbl SF K: LStd, CK: MStd, DB: [ Crew+, MScrap ] ]</text>
+<text name="event_OVERRIDE_FEDERATION_BASE_ASSIST_3_text">You arrive in the sector to see the Federation outpost under fire from multiple Rebel ships. However, as you approach they get their Anti-Ship Battery online and disable two of the smaller ships. You swoop in to assist, taking down the wing leader. [ Friendly ASB, Rbl SF K: LStd, CK: MStd, DB: [ Crew+, MScrap ], Esc: [ 0.8, 4-6, Same as DB ] ]</text>
 <text name="event_OVERRIDE_FEDERATION_BASE_ASSIST_4_text">You arrive in the sector to see a small Federation outpost using their Anti-Ship Battery to fire at an automated drone. Debris from other ships is strewn around the area. It looks like the brunt of the battle is already over. You move in to assist. [ Friendly ASB, Auto SF K: LStd, DB: [ Crew+, +7 Hull, HStd ] ]</text>
 
 <!-- data/dlcEvents_anaerobic.xml -->
-<text name="event_LANIUS_AUTO_REBEL_c1_choice">Fight the ship. [ Lns SF; Esc: 0.2, 2-4; K: MStd; CK: HStd; DB: [ LScrap, Map | LScrap, Fleet- ] ]</text>
+<text name="event_LANIUS_AUTO_REBEL_c1_choice">Fight the ship. [ Lns SF; K: MStd; CK: HStd; DB: [ LScrap, Map | LScrap, Fleet- ]; Esc: [ 0.2, 2-4, Same as DB ] ]</text>
 <text name="event_LANIUS_AUTO_REBEL_c2_choice">Leave them alone. [ Nil ]</text>
 <text name="event_LANIUS_BEACON_EATER_c1_choice">Ask if they require assistance. [ 30 Scrap for Random Augment | Lns SF DLR; S: 0.2, 3-4, RStuff; Esc: 0.2, 2-4 ]</text>
 <text name="event_LANIUS_BEACON_EATER_c2_choice">Send them 30 scrap. [ -30 Scrap, Random Augment | -30 Scrap, Lns SF DLR; S: 0.2, 3-4, RStuff; Esc: 0.2, 2-4 ]</text>
@@ -30,14 +30,14 @@
 <text name="event_LANIUS_BEACON_EATER_c4_c2_choice">Give them 6 missiles. [ -6 Missiles, Random Augment ]</text>
 <text name="event_LANIUS_BEACON_EATER_c4_c3_choice">Give them 6 drone parts. [ -6 Drones, Random Augment ][</text>
 <text name="event_LANIUS_BEACON_EATER_c4_c4_choice">Decline. [ Nil ]</text>
-<text name="event_LANIUS_CIVILIAN_c1_choice">Attack the Lanius ship. [ Lns SF K: MStd, CK: HStd, DB: [ Crew+ | MStd | LStd | LScrapWeapon | +5 Hull ] ]</text>
+<text name="event_LANIUS_CIVILIAN_c1_choice">Attack the Lanius ship. [ Lns SF K: MStd, CK: HStd, DB: [ Crew+ | MStd | LStd | LScrapWeapon | +5 Hull | Nil ] ]</text>
 <text name="event_LANIUS_CIVILIAN_c2_choice">Avoid the conflict. [ Nil ]</text>
-<text name="event_LANIUS_DISTRESS_FIGHT_c1_choice">Fight the Lanius ship. [ Lns SF K: MStd, CK: HStd, DB: [ Crew+ | MStd | LStd | LScrapWeapon | +5 Hull ] ]</text>
+<text name="event_LANIUS_DISTRESS_FIGHT_c1_choice">Fight the Lanius ship. [ Lns SF K: MStd, CK: HStd, DB: [ Crew+ | MStd | LStd | LScrapWeapon | +5 Hull | Nil ] ]</text>
 <text name="event_LANIUS_DISTRESS_FIGHT_c2_choice">Avoid the conflict. [ Nil ]</text>
 <text name="event_LANIUS_DISTRESS_FIGHT_c3_choice">(Lanius Crew) Have your crew admonish their captain. [ Straight to Double | Same as 'Fight the Lanius ship' ] </text>
 <text name="event_LANIUS_DISTRESS_TRAP_text">You are too late - whatever once was emitting the distress signal from this system drew a Lanius ship as well as your own. Having consumed the original target, the Lanius turn their attention to your vessel. [ Lns SF DLR; S: 0.2, 3-4, RStuff; Esc: 0.2, 2-4 ]</text>
 <text name="event_LANIUS_DORMANT_EVENT_c1_choice">Scan the ship for lifeforms. [ Lns SF DLR; S: 0.2, 3-4, RStuff; Esc: 0.2, 2-4 ]</text>
-<text name="event_LANIUS_DORMANT_EVENT_c2_choice">Power weapons to attack. [ Lns SF DLR; S: 0.2, 3-4, RStuff; Esc: 0.2, 2-4 | More... | ]</text>
+<text name="event_LANIUS_DORMANT_EVENT_c2_choice">Power weapons to attack. [ Lns SF DLR; S: 0.2, 3-4, RStuff; Esc: 0.2, 2-4 | More... ]</text>
 <text name="event_LANIUS_DORMANT_EVENT_c3_choice">Investigate the vessel. [ More... ]</text>
 <text name="event_LANIUS_DORMANT_INVESTIGATE_c1_choice">Ignore the vessel. [ Nil ]</text>
 <text name="event_LANIUS_DORMANT_INVESTIGATE_c2_choice">(Lanius Crew) Send over a Lanius crewmember to plunder the ship of resources. [ MStuff ]</text>
@@ -48,9 +48,9 @@
 <text name="event_LANIUS_FIGHT_ASTEROID_text">This beacon appears to have been set up within an asteroid field to access a mining settlement. However, half of the settlement has been disassembled by a number of Lanius scavengers. Their military escort moves in to scare you off. [ Lns SF DLR w/Asteroids; S: 0.2, 3-4, RStuff; Esc: 0.2, 2-4 ]</text>
 <text name="event_LANIUS_FIGHT_PULSAR_text">There appears to be some sort of research station near a pulsar, although it's hard to tell since a portion of it has been melted. The Lanius ship that has been working at it moves in to intercept you, totally oblivious to the threat of EM pulses. [ Lns SF DLR w/Pulsar; S: 0.2, 3-4, RStuff; Esc: 0.2, 2-4 ]</text>
 <text name="event_LANIUS_FUELING_STATION_c1_choice">Hail the platform and attempt to communicate. [ Lns SF K: MStd, CK: MStd, DB: +3-5 Fuel ]</text>
-<text name="event_LANIUS_FUELING_STATION_c2_c1_choice">Signal for a refuel. [ Breach, 1 Boarder, Lns SF K: MStd, CK: MStd, DB: +3-5 Fuel | -3 Hull, Lns SF K: MStd, CK: MStd, DB: +3-5 Fuel | 3-5 Fuel BO for more ]</text>
+<text name="event_LANIUS_FUELING_STATION_c2_c1_choice">Signal for a refuel. [ Breach, 1 Lns Boarder, Lns SF K: MStd, CK: MStd, DB: +3-5 Fuel | -3 Hull, Lns SF K: MStd, CK: MStd, DB: +3-5 Fuel | 3-5 Fuel BO for more ]</text>
 <text name="event_LANIUS_FUELING_STATION_c2_c2_choice">(Blast Doors) Secure your blast doors - best to be safe when docked. [ +5 Fuel ]</text>
-<text name="event_LANIUS_FUELING_STATION_c2_choice">Dock with the platform. [ BlastDoors BO +5 Fuel | [ Breach, 1 Boarder, Lns SF K: MStd, CK: MStd, DB: +3-5 Fuel | -3 Hull, Lns SF K: MStd, CK: MStd, DB: +3-5 Fuel ] | 3-5 Fuel BO for more ]</text>
+<text name="event_LANIUS_FUELING_STATION_c2_choice">Dock with the platform. [ Lvl2 Doors BO: +5 Fuel or [ Breach, 1 Boarder, Lns SF K: MStd, CK: MStd, DB: +3-5 Fuel | -3 Hull, Lns SF K: MStd, CK: MStd, DB: +3-5 Fuel ] | 3-5 Fuel BO for more ]</text>
 <text name="event_LANIUS_FUELING_STATION_c3_choice">Ignore the platform. [ Nil ]</text>
 <text name="event_LANIUS_FUELING_STATION_LIST_3_c2_choice">(Improved Sensors) Run another scan at maximum sensitivity. [ +1-3 Fuel ]</text>
 <text name="event_LANIUS_FUELING_STATION_LIST_3_c3_choice">(Advanced Sensors) Run another scan at maximum sensitivity. [ +2-3 Fuel, +1-3 Drones ]</text>
@@ -65,7 +65,7 @@
 <text name="event_LANIUS_MANTIS_DISTRESS_c1_choice">Attack the Lanius ship. [ Lns SF K: MStd, CK: MStd, DB: [ MScrapMiss | MStd ] ]</text>
 <text name="event_LANIUS_MANTIS_DISTRESS_c2_choice">Leave the Mantis to their fate. [ Nil ]</text>
 <text name="event_LANIUS_NOBOARDERS_PDS_text">Upon arrival you are immediately surrounded by chaos: a planet's Anti-Ship Battery is firing on a number of Lanius ships; one of the combat ships mistakenly believes your ship has arrived to assist the planetary defenses. Combat positions! [ Lns SF Friendly ASB, K: MStd, CK: HStd, DB: [ +8 Hull | Nil ] ]</text>
-<text name="event_LANIUS_PIRATE_CIVILIAN_c1_choice">Attack the pirate. [ Prt SF K: MStd, CK: HStd, DB: [ Crew+ | MStd | LStd | LScrapWeapon | +5 Hull ] ]</text>
+<text name="event_LANIUS_PIRATE_CIVILIAN_c1_choice">Attack the pirate. [ Prt SF K: MStd, CK: HStd, DB: [ Crew+ | MStd | LStd | LScrapWeapon | +5 Hull | Nil ] ]</text>
 <text name="event_LANIUS_PIRATE_CIVILIAN_c2_choice">Avoid the conflict. [ Nil ]</text>
 <text name="event_LANIUS_ROCK_DISTRESS_c1_choice">Attack the Lanius ship. [ Lns SF K: MStd, CK: MStd, DB: [ Nil | MStd ] ]</text>
 <text name="event_LANIUS_ROCK_DISTRESS_c2_choice">Leave the Rockmen to their fate. [ Nil ]</text>
@@ -120,6 +120,7 @@
 <text name="text_START_BEACON_LANIUS_4">The war tore through this civilian sector, and just recently even the few life signs that remained have begun blinking out. Rumours suggest the Lanius are responsible. [ 2 Stores, 1-2 Empty, 1-2 Distress, 5-6 Hostile, 1-2 Hostile Envs, 1-2 Boarder, 2-4 Items, 0-1 Quests, 5-6 Neutral ]</text>
 
 <!-- data/events.xml -->
+<!-- Events below here haven't been double checked yet -->
 <text name="event_ALISON_DEFECTOR_c1_c1_choice">Accept his proposal, and prepare to fight the Rebel ship. [ -3 Hull, Fleet+, Rbl SF DR | 2 Human Boarders, -3 Hull, Rbl SF DR | x3 HumanCrew+ Rbl SF DR | 1 Human Boarder, Rbl SF DR, Crew- (CB+)</text>
 <text name="event_ALISON_DEFECTOR_c1_c2_choice">Reject his offer. You can never trust these Rebels. [ Rbl SF DR | 1 Boarder, Rbl SF DR | Second chance ]</text>
 <text name="event_ALISON_DEFECTOR_HELP_1_text">The dishonorable Rebel has deceived you. He damages your engines and steals your flight data before teleporting away. The fleet will be able to track you with ease. If they can't kill you now, that is! [ Rbl SF DR; S: 0.5, 2-3, RStuff; Esc: 0.5, 3-4 ]</text>
