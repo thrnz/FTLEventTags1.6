@@ -120,13 +120,16 @@
 <text name="text_START_BEACON_LANIUS_4">The war tore through this civilian sector, and just recently even the few life signs that remained have begun blinking out. Rumours suggest the Lanius are responsible. [ 2 Stores, 1-2 Empty, 1-2 Distress, 5-6 Hostile, 1-2 Hostile Envs, 1-2 Boarder, 2-4 Items, 0-1 Quests, 5-6 Neutral ]</text>
 
 <!-- data/events.xml -->
-<!-- Events below here haven't been double checked yet -->
 <text name="event_ALISON_DEFECTOR_c1_c1_choice">Accept his proposal, and prepare to fight the Rebel ship. [ -3 Hull, Fleet+, Rbl SF DR | 2 Human Boarders, -3 Hull, Rbl SF DR | x3 HumanCrew+ Rbl SF DR | 1 Human Boarder, Rbl SF DR, Crew- (CB+)</text>
 <text name="event_ALISON_DEFECTOR_c1_c2_choice">Reject his offer. You can never trust these Rebels. [ Rbl SF DR | 1 Boarder, Rbl SF DR | Second chance ]</text>
 <text name="event_ALISON_DEFECTOR_HELP_1_text">The dishonorable Rebel has deceived you. He damages your engines and steals your flight data before teleporting away. The fleet will be able to track you with ease. If they can't kill you now, that is! [ Rbl SF DR; S: 0.5, 2-3, RStuff; Esc: 0.5, 3-4 ]</text>
 <text name="event_ALISON_DEFECTOR_HELP_2_2_text">Your new crew-member smiles, then reveals a small remote trigger in the palm of his hand. Explosions rocket around the ship as more intruders teleport aboard! [ Rbl SF DR; S: 0.5, 2-3, RStuff; Esc: 0.5, 3-4 ]</text>
 <text name="event_ALISON_DEFECTOR_HELP_2_3_text">Relieved and light-headed, your new crewmember gets to work as the Rebel ship attacks. [ Rbl SF DR; S: 0.5, 2-3, RStuff; Esc: 0.5, 3-4 ]</text>
 <text name="event_ALISON_DEFECTOR_HELP_2_6_text">The Rebel makes to take his assigned station, then suddenly turns and eviscerates the nearest crew-member. Red Alert! [ Rbl SF DR; 1 Human Boarder; S: 0.5, 2-3, RStuff; Esc: 0.5, 3-4 ]</text>
+<text name="event_ALISON_DEFECTOR_HELP_2_text">Your new crew-member smiles, then reveals a small remote trigger in the palm of his hand. Explosions rocket around the ship as more intruders teleport aboard! [ 2 Human Boarders, -3 Hull, Rbl SF DR; S: 0.5, 2-3, RStuff; Esc: 0.5, 3-4 ]</text>
+<text name="event_ALISON_DEFECTOR_HELP_3_text">Relieved and light-headed, your new crewmember gets to work as the Rebel ship attacks. [ Rbl SF DR; S: 0.5, 2-3, RStuff; Esc: 0.5, 3-4 ]</text>
+<text name="event_ALISON_DEFECTOR_HELP_6_c0_clone">The eviscerated crewmember's clone launches out of the clone bay, eager to seek revenge. [ Rbl SF DR; S: 0.5, 2-3, RStuff; Esc: 0.5, 3-4 ]</text>
+<text name="event_ALISON_DEFECTOR_HELP_6_text">The Rebel makes to take his assigned station, then suddenly turns and eviscerates the nearest crew-member. Red Alert! [ Rbl SF DR; S: 0.5, 2-3, RStuff; Esc: 0.5, 3-4 ]</text>
 <text name="event_ALISON_DEFECTOR_REJECT_3_c1_choice">Reluctantly accept his proposal and fight the Rebel ship. [ -3 Hull, Rbl SF DR, Fleet+ | -3 Hull, 2 Human Boarders, Rbl SF DR | x3 HumanCrew+, Quest, Rbl SF DR | 1 HumanBoarder, Rbl SF DR, Crew- (CB+) ]</text>
 <text name="event_ALISON_DEFECTOR_REJECT_3_c2_choice">Reject him outright and execute him on the spot. [ Rbl SF DR; S: 0.5, 2-3, RStuff; Esc: 0.5, 3-4 ]</text>
 <text name="event_ALISON_DEFECTOR_REJECT_3_c3_choice">Reject his offer again. [ Rbl SF DR, 1 Human Boarder; S: 0.5, 2-3, RStuff; Esc: 0.5, 3-4 ]</text>
@@ -139,12 +142,13 @@
 <text name="event_ASTEROID_DERELICT_SHIP_c1_choice">Search for the ship. [ -5 Hull | RStd | LScrapWeapon or LScrap Stasis Pod ]</text>
 <text name="event_ASTEROID_DERELICT_SHIP_c2_choice">Avoid the area. [ Nil ]</text>
 <text name="event_ASTEROID_DERELICT_SHIP_c3_choice">(Rock Plating) Make a thorough search for the ship without fear of stray asteroids. [ LScrapWeapon or LScrap Stasis Pod ]</text>
-<text name="event_ASTEROID_EXPLORE_c1_choice">Explore the asteroid field. [ Nil | HScrapFuel | MScrapMiss | MScrapDrones | -5 Hull | Prt SF DR w/Asteroids; Esc: 0.5, 2-4; S: 0.5, 3-4 ]</text>
+<text name="event_ASTEROID_EXPLORE_c1_choice">Explore the asteroid field. [ Nil | HFuel | MScrapMiss | MScrapDrones | -5 Hull | Prt SF DR w/Asteroids; Esc: 0.5, 2-4; S: 0.5, 3-4 ]</text>
 <text name="event_ASTEROID_EXPLORE_c2_choice">Too dangerous. We'll just wait for the FTL to charge. [ Nil ]</text>
 <text name="event_ASTEROID_EXPLORE_c3_choice">(Scrap Recovery Arm) Attempt to mine the asteroids. [ HScrap ]</text>
+<text name="event_ASTEROID_EXPLORE_RESULTS_6_text">A pirate ship hiding behind one of the larger asteroids attacks you! [ Prt SF DR w/Asteroids; Esc: 0.5, 2-4; S: 0.5, 3-4 ]</text>
 <text name="event_AUTO_ASTEROID_text">You arrive in an asteroid belt to discover that a Rebel automated-scout has been stationed here. Prepare for a fight! [ Auto SF DR w/Asteroids ]</text>
 <text name="event_AUTO_SUN_text">You arrive at the beacon to find yourself dangerously close to a star. An automated Rebel ship, impervious to the heat, moves in to engage. [ Auto SF DR w/Solar-flare ]</text>
-<text name="event_BOARDERS_ASTEROID_GHOST_c1_choice">Prepare for a fight! [ 3-6 Boarders w/asteroids ]</text>
+<text name="event_BOARDERS_ASTEROID_GHOST_c1_choice">Prepare for a fight! [ 3-6 Boarders w/Asteroids ]</text>
 <text name="event_BOARDERS_ASTEROID_GHOST_c2_choice">(Engines) Activate full impulse drive to escape. [ -4 Hull ]</text>
 <text name="event_BOARDERS_ASTEROID_GHOST_c3_choice">(Piloting) Have your pilot maneuver you out of the asteroid field. [ 2-4 Boarders ]</text>
 <text name="event_CIVILIAN_ASTEROIDS_BEACON_2_c1_choice">Try to shield their ship with yours. [ -1 Hull, HScrapFuel | LScrap | -4 Hull, LScrap ]</text>
@@ -170,7 +174,7 @@
 <text name="event_DISTRESS_STATION_DISEASE_c2_choice">Ignore their request and move on. [ Nil ]</text>
 <text name="event_DISTRESS_STATION_DISEASE_c3_choice">(Rock Crew) Send your Rock crew-member to prevent a riot. [ MStuff ]</text>
 <text name="event_DISTRESS_STATION_DISEASE_c4_choice">(Engi Crew) Send your Engi to calm down the infected. [ MStuff ]</text>
-<text name="event_DISTRESS_STATION_DISEASE_c5_choice">(Adv. Medbay) Use your Medbay to help synthesize a cure. [ MStuff | HScrapWeapon w/MedBots BO ]</text>
+<text name="event_DISTRESS_STATION_DISEASE_c5_choice">(Adv. Medbay) Use your Medbay to help synthesize a cure. [ MStuff or HScrapWeapon w/MedBots BO ]</text>
 <text name="event_DISTRESS_STATION_DISEASE_c5_c2_choice">(Engi Med-bot Dispersal) Use the Nano med-bots to accelerate the dispersal of the cure. [ HScrapWeapon ]</text>
 <text name="event_DISTRESS_STATION_FIRE_c1_choice">Send your crew in a shuttle to help put out the fire. [ Crew- CB+, LScrap | HScrap ]</text>
 <text name="event_DISTRESS_STATION_FIRE_c2_choice">Dock and try to rescue the survivors. [ -4 Hull, LScrap | Crew+, LScrap ]</text>
@@ -184,7 +188,9 @@
 <text name="event_DISTRESS_TRAPPED_MINER_LOOT_2_text">You decide the pirate is not worth saving and fire a few volleys into their hull. Before you can scrap the remains another pirate ship flashes on your radar. Perhaps they saw your deed, or perhaps they want to claim the spoils for themselves, but for whatever reason, they're charging weapons! [ Prt SF DR; S: 0.5, 3-4, RStuff; Esc: 0.5, 2-4 ]</text>
 <text name="event_DONOR_BLACK_RAVEN_c1_c1_choice">Accept his challenge. [ Slg SF K: MStd; CK: HStd; S: 0, 3-4, HScrapWeapon ]</text>
 <text name="event_DONOR_BLACK_RAVEN_c1_c2_choice">Decline. [ Slg SF K: MStd; CK: HStd; S: 0, 3-4, HScrapWeapon ]</text>
+<text name="event_DONOR_BLACK_RAVEN_c1_c2_text">"I sssee... However you have no choice in the matter!" They move in to attack. [ Slg SF K: MStd; CK: HStd; S: 0, 3-4, HScrapWeapon ]</text>
 <text name="event_DONOR_BLACK_RAVEN_c1_c3_choice">(Slugman Crew) Engage in a duel of the mind. [ HScrapWeapon | Slg SF 1-2 Boarders; K: MStd; CK: HStd; S: 0, 3-4, HScrapWeapon ]</text>
+<text name="event_DONOR_BLACK_RAVEN_SLUG_1_text">Your Slug crewman's eyes glaze over as the two telepaths concentrate. You can only wonder what is happening. After a short time your comrade grunts in pain and collapses onto the floor, stunned. Nights responds, "Hah! It'll take more than that to defeat me! Let the real battle begin!" [ Slg SF 1-2 Boarders; K: MStd; CK: HStd; S: 0, 3-4, HScrapWeapon ]</text>
 <text name="event_DONOR_MANTIS_CHASE_text">You are immediately hailed by an impressive looking Mantis ship, "Your ship would make a mighty fine prize. Prepare for battle!" [ Mts SF K: MStd, CK: HStd, Esc: 5-5, 5s, Mantis Chase Quest ]</text>
 <text name="event_DONOR_MANTIS_CHASE2_c1_text">"Not YOU again! Do you know how much these repairs are going to cost me? Time to take out the big guns." [ Mts SF K: MStd Weapon; CK: HStd Weapon; S: 2-2, HWeap; Esc: 6-6, 12s, HStd ]</text>
 <text name="event_DONOR_PONY_c1_c1_choice">Try to communicate peacefully. [ EngiCrew+,  LStd | Nil ]</text>
@@ -193,12 +199,12 @@
 <text name="event_DONOR_PONY_c1_c4_choice">(Slugman Crew) Attempt to communicate telepathically. [ EngiCrew+ ]</text>
 <text name="event_DONOR_PONY_c1_choice">Investigate. [ More... ]</text>
 <text name="event_DONOR_PONY_c2_choice">Ignore it. [ Nil ]</text>
-<text name="event_DONOR_PLAGUE_c1_choice">Board the station and look for survivors. [ LScrap | LScrap, HumanCrew+ | LScrap, Crew- (CB-), LVL 2 Medbay will revive) ]</text>
+<text name="event_DONOR_PLAGUE_c1_choice">Board the station and look for survivors. [ LScrap | LScrap, HumanCrew+ | LScrap, Crew- (CB-), Lvl 2 Medbay will revive ]</text>
 <text name="event_DONOR_PLAGUE_c2_choice">Scrap some of the debris. [ RScrap ]</text>
 <text name="event_ESCORT_BEACON_c1_choice">Lead them to their destination. [ LScrap, Ship Escort Quest ]</text>
 <text name="event_ESCORT_BEACON_c2_choice">Decline. [ Nil ]</text>
 <text name="event_ESCORT_BEACON_c3_choice">(Advanced FTL Navigation) Have your navigation software calculate and upload route instructions to their ship. [ HStd ]</text>
-<text name="event_FEDERATION_BASE_ASSIST_1_text">You arrive in the sector to see a small outpost being bombarded by an automated drone. This must be the Federation base you were told about! [ Auto SF K: LStd, DB: [ LScrapWeapon, Crew+ | HStd, +7 Hull ] ]</text>
+<text name="event_FEDERATION_BASE_ASSIST_1_text">You arrive in the sector to see a small outpost being bombarded by an automated drone. This must be the Federation base you were told about! [ Auto SF K: LStd, DB: [ LScrapWeapon, Crew+ | HStd, +7 Hull, Crew+ ] ]</text>
 <text name="event_FEDERATION_PLANET_SIGNAL_c1_choice">Send an away party to investigate. [ Hidden Federation Base Quest | MStuff, Federation Base Assist Quest | Nil | HStd | Rbl SF DR; 2-3 Human Boarders; S: 0.5, 2-3, RStuff; Esc: 0.5, 3-4 ]</text>
 <text name="event_FEDERATION_PLANET_SIGNAL_c2_choice">It could be a trap. Let's move on. [ Nil ]</text>
 <text name="event_FEDERATION_PLANET_SIGNAL_LIST_1_text">You find a secret Federation outpost. They are regrettably out of supplies but are eager to tell you of another secret base. They give you the coordinates. [ Hidden Federation Base Quest ]</text>
@@ -216,10 +222,10 @@
 <text name="event_MERCENARY_c4_choice">You have no need of his services. [ Nil ]</text>
 <text name="event_MERCENARY_WORK_LIST_1_c1_choice">Agree to rescue the store. [ Space Dock Rescue Quest ]</text>
 <text name="event_MERCENARY_WORK_LIST_1_c2_choice">Decline. [ Nil ]</text>
-<text name="event_MERCENARY_WORK_LIST_2_c1_choice">Accept. [ Prt SF S: MScrapWeapon, K: LStd, CK: LStd ]</text>
+<text name="event_MERCENARY_WORK_LIST_2_c1_choice">Accept. [ Prt SF S: [ 3-4, MScrapWeapon ]; K: LStd; CK: LStd ]</text>
 <text name="event_MERCENARY_WORK_START_c1_choice">Listen to their offer. [ More ... ]</text>
 <text name="event_MERCENARY_WORK_START_c2_choice">Decline. [ Nil ]</text>
-<text name="event_MERCHANT_DELIVER_LIST_1_c1_choice">Dock with the station and investigate. [ MDrones | Crew+, Boarders | Crew- (CB-), avoid w/Lvl 2+ Medbay ]</text>
+<text name="event_MERCHANT_DELIVER_LIST_1_c1_choice">Dock with the station and investigate. [ MDrones | Crew+, 3-4 Human Boarders | Crew- (CB-), avoid w/Lvl 2+ Medbay ]</text>
 <text name="event_MERCHANT_DELIVER_LIST_1_c2_choice">Leave it alone. [ Nil ]</text>
 <text name="event_MERCHANT_DELIVER_LIST_1_c3_choice">(Anti-Personnel Drone) Use an Anti-Personnel Drone to investigate. [ x2 -1 Drone | -1 Drone, MStd ]</text>
 <text name="event_MERCHANT_DELIVER_LIST_2_c1_choice">Accept the paltry payment.</text>
@@ -227,20 +233,22 @@
 <text name="event_MERCHANT_DELIVER_LIST_2_c3_c1_choice">Accept the new offer.</text>
 <text name="event_MERCHANT_DELIVER_LIST_2_c3_c2_choice">Leave. [ Nil ]</text>
 <text name="event_MERCHANT_DELIVER_LIST_2_c3_choice">(Mind Control) Convince him that he's being 'unfair'. [ 40-55 Scrap offer ]</text>
-<text name="event_MERCHANT_DELIVER_LIST_2_c4_choice">(Weapons) Remain silent but power up your weapons. [ +55-70 Scrap, +2 Fuel, -5 Drones ]</text>
+<text name="event_MERCHANT_DELIVER_LIST_2_c4_choice">(Weapons) Remain silent but power up your weapons. [ +55-70 Scrap, +2-5 Fuel, -5 Drones ]</text>
 <text name="event_MERCHANT_INVESTIGATE_LIST_1_c1_choice">Take the cargo and head to its original destination in search of a reward. [ MDrone Reward Quest ]</text>
 <text name="event_MERCHANT_INVESTIGATE_LIST_1_c2_choice">Take the cargo for yourself. [ Weapon | HStd | MDrone Reward Quest ]</text>
 <text name="event_MERCHANT_INVESTIGATE_LIST_2_c1_choice">Promise to deliver the cargo and ask if any would be interested in joining your crew. [ Crew+, MDrone Reward Quest ]</text>
 <text name="event_MERCHANT_INVESTIGATE_LIST_2_c2_choice">Take the cargo but drop them off at a nearby station. [ Weapon | HStd | MDrone Reward Quest ]</text>
 <text name="event_MERCHANT_INVESTIGATE_LIST_2_c3_choice">(Teleporter) Beam the cargo aboard and leave them to their fate. [ Weapon | HStd | MDrone Reward Quest ]</text>
+<text name="event_MERCHANT_INVESTIGATE_LIST_3_text">After a quick scan, you find a ship being chased by a pirate. This must be the missing delivery ship! You move in to rescue them. [ Prt SF K: MStd; CK: MStd ]</text>
 <text name="event_MERCHANT_REQUEST_c1_choice">Yes. [ More ... ]</text>
 <text name="event_MERCHANT_REQUEST_c2_choice">No. [ Nil ]</text>
 <text name="event_MERCHANT_REQUEST_LIST_1_c1_text">"Great! I uploaded their location to your star map. I'm running out of options, so I have no choice but to trust you'll do what you have agreed to do." [ +5 Drones, Merchant Delivery Quest ]</text>
+<text name="event_MERCHANT_REQUEST_LIST_1_c2_choice">Decline. [ Nil ]</text>
 <text name="event_MERCHANT_REQUEST_LIST_2_c1_text">"At least you're confident, for what little that's worth. Here is their last known location." [ Merchant Investigate Quest ]</text>
-<text name="event_PIRATE_CIVILIAN_BEACON_c1_choice">Aid the civilian ship. [ Prt SF K: MStd; CK: HStd; DB: [ Crew+ | MStd | LStd | LWeap | +5 Hull ] ]</text>
+<text name="event_PIRATE_CIVILIAN_BEACON_c1_choice">Aid the civilian ship. [ Prt SF K: MStd; CK: HStd; DB: [ Crew+ | MStd | LStd | LWeap | +5 Hull | Nil ] ]</text>
 <text name="event_PIRATE_CIVILIAN_BEACON_c2_choice">Stay out of it. [ Nil ]</text>
 <text name="event_PIRATE_CIVILIAN_BEACON_c3_choice">(Improved Weapons) Fire a warning shot from your strongest weapon. [ Straight to Double | Same as 'Aid the civilian ship' ]</text>
-<text name="event_PIRATE_STATION_CROPS_c1_choice">Attack the pirate. [ Prt SF K: MStd; S: 0.5, 2-4, MStuff; Esc: 0.5, 3-4; CK: MStd; DB: LStuff, S: MStuff ]</text>
+<text name="event_PIRATE_STATION_CROPS_c1_choice">Attack the pirate. [ Prt SF K: MStd; CK: MStd; DB: LStuff; S: 0.5, 2-4, MStuff; Esc: 0.5, 3-4; ]</text>
 <text name="event_PIRATE_STATION_CROPS_c2_choice">Ignore them. [ Nil ]</text>
 <text name="event_PIRATE_STATION_CROPS_c3_choice">(Fire Beam) Show the pirate how to intimidate settlers: burn their crops! [ HScrapDrone ]</text>
 <text name="event_PIRATE_STATION_CROPS_c4_choice">(Fire Bomb) Show the pirate how to intimidate settlers: start fires in their crude dwellings. [ HScrapDrone, -1 Miss ]</text>
@@ -252,17 +260,17 @@
 <text name="event_QUEST_CREWDEAD_START_2_c4_choice">(Bio Beam) Offer to 'remove' their crew. [ CrewKill Quest ]</text>
 <text name="event_QUEST_CREWDEAD_START_2_c5_choice">(Fire Bomb) Offer to burn the crew out. [ CrewKill Quest ]</text>
 <text name="event_QUEST_CREWDEAD_text">You find the ship that you were asked to capture intact. You're not sure why, but they stressed that it's of great importance that you kill the crew WITHOUT destroying the ship. [ Prt SF K: -15 Hull; CK: HScrapWeapon ]</text>
-<text name="event_QUEST_ESCORT_c1_choice">Accept. Accept. [ LFuel, Escore Quest ]</text>
+<text name="event_QUEST_ESCORT_c1_choice">Accept. [ LFuel, Escort Quest ]</text>
 <text name="event_QUEST_ESCORT_c2_choice">Decline. [ Nil ]</text>
-<text name="event_QUEST_ESCORT_ARRIVE_1_text">You escort the ship to the requested beacon. Much to your dismay you are ambushed by a Rebel ship. You walked right into their trap! [ Rbl SF DR, S: 0.5, 2-3, RStuff;Esc: 0.5, 3-4 ]</text>
+<text name="event_QUEST_ESCORT_ARRIVE_1_text">You escort the ship to the requested beacon. Much to your dismay you are ambushed by a Rebel ship. You walked right into their trap! [ Rbl SF DR; S: 0.5, 2-3, RStuff; Esc: 0.5, 3-4 ]</text>
 <text name="event_QUEST_MANTIS_INVASION_c1_choice">Leave before they notice you. [ Nil | Mts SF K: MStd, CK: HStd ]</text>
 <text name="event_QUEST_MANTIS_INVASION_c2_choice">(Missile Weapon) Bombard their key structures. [ -1 Miss, Mts SF K: MStd, CK: HStd ]</text>
 <text name="event_QUEST_MANTIS_INVASION_c3_choice">(2 Fire Bombs) Teleport fire bombs into key structures. [ -2 Miss, HStuff, EngiCrew+ ]</text>
 <text name="event_QUEST_MANTIS_INVASION_START_c1_choice">Pledge to do what you can. [ MScrap, Mantis War Camp Quest ]</text>
 <text name="event_QUEST_MANTIS_INVASION_START_c2_choice">Apologize and decline. [ Nil ]</text>
-<text name="event_QUEST_STORE_RESCUE_c1_choice">Engage the Rebel and rescue the space dock. [ Rbl SF K: MScrap, CK: MScrap, DB: [ +5 Hull, Store ] ]</text>
+<text name="event_QUEST_STORE_RESCUE_c1_choice">Engage the Rebel and rescue the space dock. [ Rbl SF K: MScrap; CK: MScrap; DB: [ +5 Hull, Store ] ]</text>
 <text name="event_QUEST_STORE_RESCUE_c2_choice">Avoid a fight. [ Nil ]</text>
-<text name="event_REBEL_VS_FEDERATION_c1_choice">Aid the Federation ship. [ Rbl SF K: MStd; CK: MStd; DB: [ Hidden Federation Base Quest | MStd | Crew+ w/BOs ]</text>
+<text name="event_REBEL_VS_FEDERATION_c1_choice">Aid the Federation ship. [ Rbl SF K: MStd; CK: MStd; DB: [ Hidden Federation Base Quest | MStd | LStd, Crew+, BOs for more ]</text>
 <text name="event_REBEL_VS_FEDERATION_c2_choice">Use this chance to escape. [ Nil ]</text>
 <text name="event_REBEL_VS_FEDERATION_SAVED_LIST_2_c1_choice">Quickly try to rescue the crew. [ Crew+, LStd ]</text>
 <text name="event_REBEL_VS_FEDERATION_SAVED_LIST_2_c2_choice">(Nano Med-bot Dispersal) Pump their ship with Nano Med-bots to aid in the rescue. [ Crew+ w/Shield skill, HScrapFuel ]</text>
@@ -270,7 +278,7 @@
 <text name="event_REBEL_VS_FEDERATION_SAVED_LIST_2_c4_choice">(Healing Burst) Use a healing bomb to keep them alive. [ -1 Miss, Crew+ w/Engines skill, MScrap, Hidden Federation Base Quest ]</text>
 <text name="event_ROCK_CRYSTAL_BEACON_c1_choice">Scrap it. [ HScrap | Rck SF DR S: 0.7, 3-4, RStuff ]</text>
 <text name="event_ROCK_CRYSTAL_BEACON_c2_choice">Leave it alone. [ Nil ]</text>
-<text name="event_ROCK_CRYSTAL_BEACON_c3_choice">(Crystal Crew) Reactivate it. [ Jump to Crystal Sector ]</text>
+<text name="event_ROCK_CRYSTAL_BEACON_c3_choice">(Crystal Crew) Reactivate it. [ +1 Fuel, Jump to Crystal Sector ]</text>
 <text name="event_START_BEACON_text">Welcome to a new sector! Get to the exit beacon and jump to the next sector before the pursuing Rebels catch you! [ 2-3 Stores, 2-3 Items, 2-4 Neutral, 1-2 Empty, 1-2 Distress, 6-8 Hostile, 0-8 Nebula, 0-2 Quests ]</text>
 <text name="event_START_GAME_text">The data you carry is vital to the remaining Federation fleet. You'll need supplies for the journey, so make sure to explore each sector before moving on to the next. But get to the exit before the pursuing Rebel fleet can catch up! [ 1-2 Stores, 1 Item, 2-4 Neutral, 1-2 Empty, 1-2 Distress, 6-8 Hostile, 0-4 Nebula, 1 Quest ]</text>
 <text name="event_STATION_SICK_c1_choice">Dock with the station and investigate. [ MDrones | Crew+, 3-4 Human Boarders | Crew- (CB-), avoid w/Lvl 2+ Medbay ]</text>
@@ -288,7 +296,7 @@
 <text name="event_STRANDED_2_c5_choice">(Slug Crew) "Sir, allow me to assess his mental state." [ HumanCrew+ | Nil ]</text>
 <text name="event_STRANDED_BEACON_c1_choice">Go down to the surface to investigate. [ More... ]</text>
 <text name="event_STRANDED_BEACON_c2_choice">Ignore the signal. [ Nil ]</text>
-<text name="event_ZOLTAN_CREW_STUDY_c1_choice">Participate in their study. [ x2 LScrap | 2 Boarders, Prt SF K: MStd, CK: HStd, DB: LStuff ]</text>
+<text name="event_ZOLTAN_CREW_STUDY_c1_choice">Participate in their study. [ x2 LScrap | 2 Boarders, Prt SF K: MStd; CK: HStd; DB: LStuff, Drone ]</text>
 <text name="event_ZOLTAN_CREW_STUDY_c2_choice">Decline. [ Nil ]</text>
 <text name="event_ZOLTAN_CREW_STUDY_c3_choice">(Advanced Medbay) Give them your medical records. [ Drone, LStuff ]</text>
 <text name="event_ZOLTAN_CREW_STUDY_c4_choice">(Damaged Stasis Pod) Ask if they can fix this. [ CrystalCrew+ ]</text>
@@ -324,11 +332,11 @@
 <text name="text_BOSS_SCOUT_4">Federation ships are scarce in this region of space despite a number of civilian space stations. You see a small bomber squadron engaged with some Federation scouts and quickly move in to assist. [ Rbl/Auto SF DR ]</text>
 <text name="text_BOSS_SCOUT_5">As soon as you arrive at the beacon, a Rebel scout turns to engage. Power up the weapons! [ Rbl/Auto SF DR ]</text>
 <text name="text_BOSS_SCOUT_6">You scan the area, finding signatures for only a small trade vessel. However, as it approaches you see the silhouette of a Rebel scout! You run the scanners again and discover their registration is fake. You move in to attack. [ Rbl/Auto SF DR ]</text>
-<text name="text_BOSS_SCOUT_RESCUE_1">Shots fly by your port windows followed by a Rebel scout in pursuit of a damaged cruiser. Should we move in to engage? [ Rbl SF K: MStd, Esc: 0.5, 4-8, CK: HStd, DB: [ Sincere Gratitude | +8 Hull | MStuff | Repair Station Quest ] ]</text>
-<text name="text_BOSS_SCOUT_RESCUE_2">There seems to be a small Federation colony under attack by a Rebel forward scout. Will you protect them? [ Rbl SF K: MStd, Esc: 0.5, 4-8, CK: HStd, DB: [ Sincere Gratitude | +8 Hull | MStuff | Repair Station Quest ] ]</text>
-<text name="text_BOSS_SCOUT_RESCUE_3">A number of large transports are being pursued by a Rebel bombing squadron. One bomber has managed to slip through the defensive fire, and is poised to wreak havoc among the enormous yet vulnerable transports. There's time for you to advance and take it out! [ Rbl SF K: MStd, Esc: 0.5, 4-8, CK: HStd, DB: [ Sincere Gratitude | +8 Hull | MStuff | Repair Station Quest ] ]</text>
-<text name="text_BOSS_SCOUT_RESCUE_4">A battle rages nearby between small fighters; apparently fighting over a space station. The Federation appears to be losing ships fast. Shall we assist them? [ Rbl SF K: MStd, Esc: 0.5, 4-8, CK: HStd, DB: [ Sincere Gratitude | +8 Hull | MStuff | Repair Station Quest ] ]</text>
-<text name="text_BOSS_SCOUT_RESCUE_5">A civilian ship is broadcasting a request for assistance on a secure Federation channel. They are being harassed by Rebel scouts. Will you respond? [ Rbl SF K: MStd, Esc: 0.5, 4-8, CK: HStd, DB: [ Sincere Gratitude | +8 Hull | MStuff | Repair Station Quest ] ]</text>
+<text name="text_BOSS_SCOUT_RESCUE_1">Shots fly by your port windows followed by a Rebel scout in pursuit of a damaged cruiser. Should we move in to engage? [ Rbl SF K: MStd; CK: HStd, DB: [ Sincere Gratitude | +8 Hull | MStuff ]; Esc: 0.5, 4-8 ]</text>
+<text name="text_BOSS_SCOUT_RESCUE_2">There seems to be a small Federation colony under attack by a Rebel forward scout. Will you protect them? [ Rbl SF K: MStd; CK: HStd, DB: [ Sincere Gratitude | +8 Hull | MStuff ]; Esc: 0.5, 4-8 ]</text>
+<text name="text_BOSS_SCOUT_RESCUE_3">A number of large transports are being pursued by a Rebel bombing squadron. One bomber has managed to slip through the defensive fire, and is poised to wreak havoc among the enormous yet vulnerable transports. There's time for you to advance and take it out! [ Rbl SF K: MStd; CK: HStd, DB: [ Sincere Gratitude | +8 Hull | MStuff ]; Esc: 0.5, 4-8 ]</text>
+<text name="text_BOSS_SCOUT_RESCUE_4">A battle rages nearby between small fighters; apparently fighting over a space station. The Federation appears to be losing ships fast. Shall we assist them? [ Rbl SF K: MStd; CK: HStd, DB: [ Sincere Gratitude | +8 Hull | MStuff ]; Esc: 0.5, 4-8 ]</text>
+<text name="text_BOSS_SCOUT_RESCUE_5">A civilian ship is broadcasting a request for assistance on a secure Federation channel. They are being harassed by Rebel scouts. Will you respond? [ Rbl SF K: MStd; CK: HStd, DB: [ Sincere Gratitude | +8 Hull | MStuff ]; Esc: 0.5, 4-8 ]</text>
 
 <!-- data/events_crystal.xml -->
 <text name="event_CRYSTAL_AUTO_text">The Rebels must have sent their automated scouts to find you. One jumps in and immediately moves to attack. [ Auto SF DR ]</text>
@@ -344,29 +352,30 @@
 <text name="event_CRYSTAL_CHATTY_c1_c2_choice">"I don't have time for this." [ Nil ]</text>
 <text name="event_CRYSTAL_CHATTY_c2_choice">No. [ Nil ]</text>
 <text name="event_CRYSTAL_CHATTY_c3_choice">(Crystal Crew) Have your crew speak to them. [ RScrapFuel ]</text>
-<text name="event_CRYSTAL_CONVOY_text">A large convoy of lumbering civilian ships appears to be passing through this region. You show no hostile intentions, but they are taking no chances, immediately sending their escort to attack! [ Cry SF K: MStd, CK: MStd, S: [ LScrapFuel, +8 Hull ] ]</text>
-<text name="event_CRYSTAL_FED_c1_choice">Save the Federation ship. [ Cry SF K: MStd, CK: HStd, DB: [ RStuff | LStd, Crew+ ] ]</text>
+<text name="event_CRYSTAL_CHATTY_LIST_1_text">You speak at length about nothing particularly interesting. "Wow, thanks. Oh look, another alien ship! I wonder if they're as nice as you." Seeing the Rebel decals you doubt they're friendly. They spot you and move in to attack, while the Crystalline civilian jumps away. [ Rbl SF DR S: 0.5, 2-3, RStuff; Esc: 0.5, 3-4 ]</text>
+<text name="event_CRYSTAL_CONVOY_text">A large convoy of lumbering civilian ships appears to be passing through this region. You show no hostile intentions, but they are taking no chances, immediately sending their escort to attack! [ Cry SF K: MStd, CK: MStd, S: 0, 3-4, [ LScrapFuel, +8 Hull ] ]</text>
+<text name="event_CRYSTAL_FED_c1_choice">Save the Federation ship. [ Cry SF K: MStd; CK: HStd; DB: [ RStuff | LStd, Crew+ ] ]</text>
 <text name="event_CRYSTAL_FED_c2_choice">Prepare to leave. [ Nil ]</text>
 <text name="event_CRYSTAL_FED_DESERTER_c1_choice">Offer supplies. [ -1-3 Fuel, -15-25 Scrap, Map ]</text>
 <text name="event_CRYSTAL_FED_DESERTER_c2_choice">Attack the traitors. [ Fed SF DR ]</text>
 <text name="event_CRYSTAL_FED_DESERTER_c3_choice">Leave them be. [ Nil ]</text>
-<text name="event_CRYSTAL_HELP_DIG_c1_choice">Send a crewmember to help.</text>
+<text name="event_CRYSTAL_HELP_DIG_c1_choice">Send a crewmember to help. [ More... ]</text>
 <text name="event_CRYSTAL_HELP_DIG_c1_c1_choice">Leave your crewmember behind. [ Crew- (CB-), MScrapFuel (HScrapFuel if Waited) ]</text>
 <text name="event_CRYSTAL_HELP_DIG_c1_c2_choice">Pull your guy out. [ Cry SF DR ]</text>
 <text name="event_CRYSTAL_HELP_DIG_c1_c3_choice">Wait. [ Fleet+, [ Crystal Heavy 2, HAugment if wait twice ] ]</text>
 <text name="event_CRYSTAL_HELP_DIG_c2_choice">Refuse. [ Nil ]</text>
-<text name="event_CRYSTAL_HUMAN_TESTS_c1_choice">Allow them to run tests on a crewmember. [ Crew- (CB+) | LScrapWeapon | MStuff | LScrapDrone ]</text>
+<text name="event_CRYSTAL_HUMAN_TESTS_c1_choice">Allow them to run tests on a crewmember. [ Crew- (CB+), LScrapWeapon | MStuff | LScrapDrone ]</text>
 <text name="event_CRYSTAL_HUMAN_TESTS_c2_choice">Refuse. [ x2 Nil | Cry SF DR ]</text>
 <text name="event_CRYSTAL_HUMAN_TESTS_c3_choice">(Rock crewmember) Send your Rockman crew. [ MStd ]</text>
 <text name="event_CRYSTAL_HUMAN_TESTS_c4_choice">(Backup DNA Bank) Send your crew's data. [ MScrapWeapon ]</text>
-<text name="event_CRYSTAL_HUNTER_text">Crystal shards fly past your ship as soon as you jump. You scan to find the assailant and discover a Crystalline ship carrying a number of humans in its cargo bay. It must be hunting the intruding ships! [ Cry SF K: MStd, CK: MStd, S: HumanCrew+ ]</text>
-<text name="event_CRYSTAL_MANTIS_CRYSTAL_c1_choice">Attack the Mantis. [ Mts SF K: MStd, CK: HStd, DB: [ x2 Nil | x2 RStuff | Crystal Weapon ] ]</text>
+<text name="event_CRYSTAL_HUNTER_text">Crystal shards fly past your ship as soon as you jump. You scan to find the assailant and discover a Crystalline ship carrying a number of humans in its cargo bay. It must be hunting the intruding ships! [ Cry SF K: MStd; CK: MStd; S: 0.5, 3-4, HumanCrew+ ]</text>
+<text name="event_CRYSTAL_MANTIS_CRYSTAL_c1_choice">Attack the Mantis. [ Mts SF K: MStd; CK: HStd, DB: [ x2 Nil | x2 RStuff | Crystal Weapon ] ]</text>
 <text name="event_CRYSTAL_MANTIS_CRYSTAL_c2_choice">Ignore them. [ Nil ]</text>
 <text name="event_CRYSTAL_PIRATE_CRYSTAL_c1_choice">Attack the pirate. [ Prt SF K: MStd, CK, HStd, DB: [ x2 Nil | x2 RStuff | Crystal Weapon ] ]</text>
 <text name="event_CRYSTAL_PIRATE_CRYSTAL_c2_choice">Ignore them. [ Nil ]</text>
-<text name="event_CRYSTAL_REBEL_text">As soon as you arrive, a Rebel ship jumps in after you; they must be really hot on your tail. [ Rbl SF DR ]</text>
+<text name="event_CRYSTAL_REBEL_text">As soon as you arrive, a Rebel ship jumps in after you; they must be really hot on your tail. [ Rbl SF DR S: 0.5, 2-3, RStuff; Esc: 0.5, 3-4 ]</text>
 <text name="event_CRYSTAL_REBEL_CRYSTAL_c1_choice">Attack the Rebel. [ Rbl SF K: MStd, CK: HStd, DB: [ x2 Nil | x2 RStuff | Crystal Weapon ] ]</text>
-<text name="event_CRYSTAL_REBEL_CRYSTAL_c2_choice">Attack the Crystalline ship. [ Cry SF DR ]</text>
+<text name="event_CRYSTAL_REBEL_CRYSTAL_c2_choice">Attack the Crystalline ship. [ Fleet+, Cry SF DR ]</text>
 <text name="event_CRYSTAL_REBEL_CRYSTAL_c3_choice">Ignore them. [ Nil ]</text>
 <text name="event_CRYSTAL_REBEL_CRYSTAL2_c1_choice">Engage the Rebel ship. [ Cry SF DR ]</text>
 <text name="event_CRYSTAL_REBEL_CRYSTAL2_c2_choice">Leave them alone. [ Nil ]</text>
@@ -380,16 +389,17 @@
 <text name="event_CRYSTAL_SCRAP_EXCITED_c2_choice">Turn him down. [ Nil ]</text>
 <text name="event_CRYSTAL_SHIP_SURRENDER_7_c1_choice">Yes. [ CrystalCrew+]</text>
 <text name="event_CRYSTAL_SHIP_SURRENDER_7_c2_choice">No. [ RStuff ]</text>
-<text name="event_START_BEACON_CRYSTAL_c1_text">"You have done as you promised and so shall I. The coordinates of my old ship have been forwarded to your navigation system." [ 2-3 Stores, 2 Items, 2 Empty, 6-10 Hostile, 1-2 Boarders, 12 Neutral ]</text>
-<text name="text_CRYSTAL_FIGHT_1">You arrive near a fleet of crystal ships, civilian or mercantile from the looks of them. You pause to scan one but they react immediately and send an escort to fight you off. Prepare to engage! [ Cry SF DR ]</text>
-<text name="text_CRYSTAL_FIGHT_2">You arrive at the Beacon and are immediately greeted by an automatic message or warning of some kind. The translator can't seem to discern its purpose but after a few short moments an alarm goes off and a hostile ship jumps in! [ Cry SF DR ]</text>
-<text name="text_CRYSTAL_FIGHT_3">You receive a message, "Hah. It looks like another worthless alien-filled craft. Prepare to meet your maker!" Weapon locks detected. [ Cry SF DR ]</text>
-<text name="text_CRYSTAL_FIGHT_4">A Crystalline ship messages you, "I've heard tales that our isolation has finally ended. As a warrior I must demand to test my skills against you!" Before you can respond they move in to attack. [ Cry SF DR ]</text>
-<text name="text_CRYSTAL_FIGHT_5">You arrive in a busy sector. At first no one pays any mind to your alien ship but soon you're registering a number of scan signatures. You get the feeling you're not wanted here just seconds before registering enemy weapon locks! [ Cry SF DR ]</text>
-<text name="text_CRYSTAL_FIGHT_6">You jump next to a node busy with traffic, but before long all nearby ships notice you and keep their distance, uncertain of your allegiance. After an awkward standoff, a military ship breaks away from the rest and charges you. [ Cry SF DR ]</text>
-<text name="text_CRYSTAL_FIGHT_7">A barrage of rasps and clicks is broadcast over the comm; the universal translator understands little, but the words 'aliens', 'allowed' and 'no' come through quite clearly. You'll have to prove your right to be here in combat! [ Cry SF DR ]</text>
+<text name="event_START_BEACON_CRYSTAL_c1_text">"You have done as you promised and so shall I. The coordinates of my old ship have been forwarded to your navigation system." [ 2-3 Stores, 2 Items, 2 Empty, 6-10 Hostile, 1-2 Boarders, 12 Neutral ] [ Crystal Unlock Quest ]</text>
+<text name="text_CRYSTAL_FIGHT_1">You arrive near a fleet of crystal ships, civilian or mercantile from the looks of them. You pause to scan one but they react immediately and send an escort to fight you off. Prepare to engage! [ Cry SF DR; S: 0.6, 3-4 [ x2 Nil | x4 RStuff | RStuff or CrystalCrew+ ] ]</text>
+<text name="text_CRYSTAL_FIGHT_2">You arrive at the Beacon and are immediately greeted by an automatic message or warning of some kind. The translator can't seem to discern its purpose but after a few short moments an alarm goes off and a hostile ship jumps in! [ Cry SF DR; S: 0.6, 3-4 [ x2 Nil | x4 RStuff | RStuff or CrystalCrew+ ] ]</text>
+<text name="text_CRYSTAL_FIGHT_3">You receive a message, "Hah. It looks like another worthless alien-filled craft. Prepare to meet your maker!" Weapon locks detected. [ Cry SF DR; S: 0.6, 3-4 [ x2 Nil | x4 RStuff | RStuff or CrystalCrew+ ] ]</text>
+<text name="text_CRYSTAL_FIGHT_4">A Crystalline ship messages you, "I've heard tales that our isolation has finally ended. As a warrior I must demand to test my skills against you!" Before you can respond they move in to attack. [ Cry SF DR; S: 0.6, 3-4 [ x2 Nil | x4 RStuff | RStuff or CrystalCrew+ ] ]</text>
+<text name="text_CRYSTAL_FIGHT_5">You arrive in a busy sector. At first no one pays any mind to your alien ship but soon you're registering a number of scan signatures. You get the feeling you're not wanted here just seconds before registering enemy weapon locks! [ Cry SF DR; S: 0.6, 3-4 [ x2 Nil | x4 RStuff | RStuff or CrystalCrew+ ] ]</text>
+<text name="text_CRYSTAL_FIGHT_6">You jump next to a node busy with traffic, but before long all nearby ships notice you and keep their distance, uncertain of your allegiance. After an awkward standoff, a military ship breaks away from the rest and charges you. [ Cry SF DR; S: 0.6, 3-4 [ x2 Nil | x4 RStuff | RStuff or CrystalCrew+ ] ]</text>
+<text name="text_CRYSTAL_FIGHT_7">A barrage of rasps and clicks is broadcast over the comm; the universal translator understands little, but the words 'aliens', 'allowed' and 'no' come through quite clearly. You'll have to prove your right to be here in combat! [ Cry SF DR; S: 0.6, 3-4 [ x2 Nil | x4 RStuff | RStuff or CrystalCrew+ ] ]</text>
 
 <!-- data/events_engi.xml -->
+<!-- Events below here haven't been double checked yet -->
 <text name="event_DISTRESS_ENGI_REACTOR_c1_choice">Board the station. [ Nil | More... ]</text>
 <text name="event_DISTRESS_ENGI_REACTOR_c2_choice">Ignore it. [ Nil ]</text>
 <text name="event_DISTRESS_ENGI_REACTOR_c3_choice">(Improved Sensors) Run another scan. [ EngiCrew+, LScrap | LScrapDrone ]</text>
@@ -765,6 +775,8 @@
 <!-- data/events_ships.xml -->
 <text name="ship_CRYSTAL_CONVOY_surrender_c1_choice">Stop the fight. [ LScrapFuel, +8 Hull ]</text>
 <text name="ship_CRYSTAL_CONVOY_surrender_c2_choice">Finish them off. [ K: MStd; CK: MStd ]</text>
+<text name="ship_CRYSTAL_HUNTER_surrender_c1_choice">Accept their surrender. [ HumanCrew+ ]</text>
+<text name="ship_CRYSTAL_HUNTER_surrender_c2_choice">Finish them off. [ K: MStd; CK: MStd ]</text>
 <text name="ship_CRYSTAL_SHIP_surrender_c1_choice">Accept their surrender. [ x2 Nil | x4 RStuff | RStuff or CrystalCrew+ ]</text>
 <text name="ship_CRYSTAL_SHIP_surrender_c2_choice">Ignore them. [ K: DR ]</text>
 <text name="ship_PIRATE_BRIBER_surrender_c1_choice">Accept the more generous bribe and leave. [ HStuff ]</text>
