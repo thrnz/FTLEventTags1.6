@@ -18,7 +18,7 @@ This mod is useful for players wanting to learn the possible results of ingame e
  * Mostly complete. I would like to complete a double check of all tags before release.
  * To avoid giving players an unfair advantage, some dialogue remains untagged or tagged ambiguously. For example the outcomes of the real/decoy Rebel ship fights in the Engi Homeworlds quest, or the 'moon counting' event.
  * I'm unsure what the 'chance', 'min', 'max', and 'timer' values actually mean for surrenders and escapes, but have tagged them anyway 'as is' from the XMLs.
- * Works with FTL v1.6.2
+ * Works with FTL v1.6.2. For FTL v1.5.13, use [this](https://github.com/thrnz/FTLEventTags).
 
 ## To-do
  * Re-do screenshots.
@@ -50,7 +50,7 @@ This mod is useful for players wanting to learn the possible results of ingame e
 * Rck - Rock class ship
 * Lns - Lanius class ship
 * Cry - Crystal class ship
-* PZtl, PRck - Pirate class Zoltan/Rock ship etc.
+* PZtn, PRck - Pirate class Zoltan/Rock ship etc.
  
 
 ## Rewards
