@@ -15,7 +15,6 @@ Tags include:
 This mod is useful for players wanting to learn the possible results of ingame events. It is also useful for players wanting to play optimally without having to refer to the wiki or XML diving.
 
 ## Notes
- * Mostly complete. I would like to complete a double check of all tags before release.
  * To avoid giving players an unfair advantage, some dialogue remains untagged or tagged ambiguously. For example the outcomes of the real/decoy Rebel ship fights in the Engi Homeworlds quest, or the 'moon counting' event.
  * I'm unsure what the 'chance', 'min', 'max', and 'timer' values actually mean for surrenders and escapes, but have tagged them anyway 'as is' from the XMLs.
  * Works with FTL v1.6.2. For FTL v1.5.13, use [this](https://github.com/thrnz/FTLEventTags).
@@ -30,7 +29,7 @@ This mod is useful for players wanting to learn the possible results of ingame e
 * K: Kill reward
 * CK: Crew Kill reward
 * DB: Double reward
-* S: Surrender offer (Chance, Min-Max)
+* S: Surrender (Chance, Min-Max, Offer)
 * Esc: Escape (Chance, Min-Max, Timer)
 * BO: Blue Option
 * Crew-/+: Gain/lose crew
