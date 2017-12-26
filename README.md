@@ -20,7 +20,7 @@ This mod is useful for players wanting to learn the possible results of ingame e
  * Works with FTL v1.6.2. For FTL v1.5.13, use [this](https://github.com/thrnz/FTLEventTags).
 
 ## To-do
- * Re-do screenshots.
+ * ~~Re-do screenshots.~~
 
 ## Legend
 * SF: Ship Fight
@@ -89,4 +89,4 @@ The fleet is delayed by 2 jumps
 
 ## Screenshots:
 
-https://imgur.com/a/3uRpz
+https://imgur.com/a/igf6u
