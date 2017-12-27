@@ -89,4 +89,4 @@ The fleet is delayed by 2 jumps
 
 ## Screenshots:
 
-https://imgur.com/a/igf6u
+https://imgur.com/a/9kywd
