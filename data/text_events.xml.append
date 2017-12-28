@@ -193,7 +193,7 @@
 <text name="event_DONOR_BLACK_RAVEN_SLUG_1_text">Your Slug crewman's eyes glaze over as the two telepaths concentrate. You can only wonder what is happening. After a short time your comrade grunts in pain and collapses onto the floor, stunned. Nights responds, "Hah! It'll take more than that to defeat me! Let the real battle begin!" [ Slg SF 1-2 Boarders; K: MStd; CK: HStd; S: 0, 3-4, HScrapWeapon ]</text>
 <text name="event_DONOR_MANTIS_CHASE_text">You are immediately hailed by an impressive looking Mantis ship, "Your ship would make a mighty fine prize. Prepare for battle!" [ Mts SF K: MStd, CK: HStd, Esc: 5-5, 5s, Mantis Chase Quest ]</text>
 <text name="event_DONOR_MANTIS_CHASE2_c1_text">"Not YOU again! Do you know how much these repairs are going to cost me? Time to take out the big guns." [ Mts SF K: MStd Weapon; CK: HStd Weapon; S: 2-2, HWeap; Esc: 6-6, 12s, HStd ]</text>
-<text name="event_DONOR_PONY_c1_c1_choice">Try to communicate peacefully. [ EngiCrew+,  LStd | Nil ]</text>
+<text name="event_DONOR_PONY_c1_c1_choice">Try to communicate peacefully. [ EngiCrew+, LStd | Nil ]</text>
 <text name="event_DONOR_PONY_c1_c2_choice">Bring some of the creatures on board to sell. [ Nil | Crew- (CB+) ]</text>
 <text name="event_DONOR_PONY_c1_c3_choice">Leave. [ Nil ]</text>
 <text name="event_DONOR_PONY_c1_c4_choice">(Slugman Crew) Attempt to communicate telepathically. [ EngiCrew+ ]</text>
@@ -853,7 +853,7 @@
 <text name="event_NEBULA_SLUG_FAKE_STORE_c2_c1_c3_choice">(Slug crewmember) Our Slug senses someone aboard the ship. Investigate it. [ Slg SF DR ]</text>
 <text name="event_NEBULA_SLUG_FAKE_STORE_c2_c1_c3_text">It looks like the merchant was trying to stall you while someone teleported on board. You catch him before he could finish and he teleports away. You immediately prepare for battle. [ Slg SF DR; S: 0.5, 3-4; Esc: 0.5, 3-4 ]</text>
 <text name="event_NEBULA_SLUG_FAKE_STORE_c2_choice">Ask to see the goods. [ More ... ]</text>
-<text name="event_NEBULA_SLUG_FAKE_STORE_LIST_2_text">"During our discussion, my man hass taken the liberty of disabling your weaponss to prevent any complications while completing our... transssaction..." You suddenly register multiple weapon locks, but your own weapons are not responding. Get out of there! [ Slg SF, 1 Slug Boarder, Weapons@0, K: HStd, CK: HStd  ]</text>
+<text name="event_NEBULA_SLUG_FAKE_STORE_LIST_2_text">"During our discussion, my man hass taken the liberty of disabling your weaponss to prevent any complications while completing our... transssaction..." You suddenly register multiple weapon locks, but your own weapons are not responding. Get out of there! [ Slg SF, 1 Slug Boarder, Weapons@0, K: HStd, CK: HStd ]</text>
 <text name="event_NEBULA_SLUG_FAKE_STORE_LIST_3_text">"Thank you. If you could do me one more courtesssy... please die quietly." You suddenly hear gunshots aboard the ship. He must have been stalling for time while they boarded your ship! [ 1 Slug Boarder, Slg SF DR; S: 0.5, 3-4; Esc: 0.5, 3-4 ]</text>
 <text name="event_NEBULA_SLUG_HULLFIX_c1_choice">No thanks. [ Nil ]</text>
 <text name="event_NEBULA_SLUG_HULLFIX_c2_choice">Sure. [ Various Bad Things ]</text>
