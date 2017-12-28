@@ -84,8 +84,14 @@
 <text name="event_LANIUS_RESEARCHER_CONTACT_c2_choice">(Lanius Crew) Offer to copy your translator's data suite. [ Augment | Weapon | Drone ]</text>
 <text name="event_LANIUS_RESEARCHER_CONTACT_c3_choice">Leave. [ Nil ]</text>
 <text name="event_LANIUS_RESEARCHER_CRAFT_c1_choice">Inquire about the process. [ More... ]</text>
+<text name="event_LANIUS_RESEARCHER_CRAFT_c1_c1_choice">Give 45 scrap to craft an augmentation. [ -45 Scrap, Random DLC Augment ]</text>
+<text name="event_LANIUS_RESEARCHER_CRAFT_c1_c2_choice">Give 50 scrap to craft a weapon. [ -50 Scrap, Random DLC Weapon ]</text>
+<text name="event_LANIUS_RESEARCHER_CRAFT_c1_c3_choice">Give 40 scrap to craft a drone schematic. [ -40 Scrap, Random DLC Drone ]</text>
 <text name="event_LANIUS_RESEARCHER_CRAFT_c1_c4_choice">Decline their offer. [ Nil ]</text>
 <text name="event_LANIUS_RESEARCHER_CRAFT_c1_c5_choice">(Lanius Crew) Offer to help in the process. [ Better Deals ]</text>
+<text name="event_LANIUS_RESEARCHER_CRAFT_c1_c5_c1_choice">Give 35 scrap to craft an augmentation. [ -35 Scrap, Random DLC Augment ]</text>
+<text name="event_LANIUS_RESEARCHER_CRAFT_c1_c5_c2_choice">Give 40 scrap to craft a weapon. [ -40 Scrap, Random DLC Weapon ]</text>
+<text name="event_LANIUS_RESEARCHER_CRAFT_c1_c5_c3_choice">Give 30 scrap to craft a drone schematic. [ -30 Scrap, Random DLC Drone ]</text>
 <text name="event_LANIUS_RESEARCHER_CRAFT_c2_choice">Leave them to their research. [ Nil ]</text>
 <text name="event_LANIUS_TRADER_TRANSLATOR_c2_choice">Decline. [ Nil ]</text>
 <text name="event_LANIUS_TRADER_TRANSLATOR_c3_choice">Decline but ask about their translation device. [ LaniusCrew+ for 40 Scrap ]</text>
