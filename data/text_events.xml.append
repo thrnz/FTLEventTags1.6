@@ -120,7 +120,7 @@
 <text name="text_START_BEACON_LANIUS_4">The war tore through this civilian sector, and just recently even the few life signs that remained have begun blinking out. Rumours suggest the Lanius are responsible. [ 2 Stores, 1-2 Empty, 1-2 Distress, 5-6 Hostile, 1-2 Hostile Envs, 1-2 Boarder, 2-4 Items, 0-1 Quests, 5-6 Neutral ]</text>
 
 <!-- data/events.xml -->
-<text name="event_ALISON_DEFECTOR_c1_c1_choice">Accept his proposal, and prepare to fight the Rebel ship. [ -3 Hull, Fleet+, Rbl SF DR | 2 Human Boarders, -3 Hull, Rbl SF DR | x3 HumanCrew+ Rbl SF DR | 1 Human Boarder, Rbl SF DR, Crew- (CB+)</text>
+<text name="event_ALISON_DEFECTOR_c1_c1_choice">Accept his proposal, and prepare to fight the Rebel ship. [ -3 Hull, Fleet+, Rbl SF DR | 2 Human Boarders, -3 Hull, Rbl SF DR | x3 HumanCrew+ Rbl SF DR | 1 Human Boarder, Rbl SF DR, Crew- (CB+) ]</text>
 <text name="event_ALISON_DEFECTOR_c1_c2_choice">Reject his offer. You can never trust these Rebels. [ Rbl SF DR | 1 Boarder, Rbl SF DR | Second chance ]</text>
 <text name="event_ALISON_DEFECTOR_HELP_1_text">The dishonorable Rebel has deceived you. He damages your engines and steals your flight data before teleporting away. The fleet will be able to track you with ease. If they can't kill you now, that is! [ Rbl SF DR; S: 0.5, 2-3, RStuff; Esc: 0.5, 3-4 ]</text>
 <text name="event_ALISON_DEFECTOR_HELP_2_2_text">Your new crew-member smiles, then reveals a small remote trigger in the palm of his hand. Explosions rocket around the ship as more intruders teleport aboard! [ Rbl SF DR; S: 0.5, 2-3, RStuff; Esc: 0.5, 3-4 ]</text>
@@ -248,7 +248,7 @@
 <text name="event_PIRATE_CIVILIAN_BEACON_c1_choice">Aid the civilian ship. [ Prt SF K: MStd; CK: HStd; DB: [ Crew+ | MStd | LStd | LWeap | +5 Hull | Nil ] ]</text>
 <text name="event_PIRATE_CIVILIAN_BEACON_c2_choice">Stay out of it. [ Nil ]</text>
 <text name="event_PIRATE_CIVILIAN_BEACON_c3_choice">(Improved Weapons) Fire a warning shot from your strongest weapon. [ Straight to Double | Same as 'Aid the civilian ship' ]</text>
-<text name="event_PIRATE_STATION_CROPS_c1_choice">Attack the pirate. [ Prt SF K: MStd; CK: MStd; DB: LStuff; S: 0.5, 2-4, MStuff; Esc: 0.5, 3-4; ]</text>
+<text name="event_PIRATE_STATION_CROPS_c1_choice">Attack the pirate. [ Prt SF K: MStd; CK: MStd; DB: LStuff; S: 0.5, 2-4, MStuff; Esc: 0.5, 3-4 ]</text>
 <text name="event_PIRATE_STATION_CROPS_c2_choice">Ignore them. [ Nil ]</text>
 <text name="event_PIRATE_STATION_CROPS_c3_choice">(Fire Beam) Show the pirate how to intimidate settlers: burn their crops! [ HScrapDrone ]</text>
 <text name="event_PIRATE_STATION_CROPS_c4_choice">(Fire Bomb) Show the pirate how to intimidate settlers: start fires in their crude dwellings. [ HScrapDrone, -1 Miss ]</text>
@@ -270,7 +270,7 @@
 <text name="event_QUEST_MANTIS_INVASION_START_c2_choice">Apologize and decline. [ Nil ]</text>
 <text name="event_QUEST_STORE_RESCUE_c1_choice">Engage the Rebel and rescue the space dock. [ Rbl SF K: MScrap; CK: MScrap; DB: [ +5 Hull, Store ] ]</text>
 <text name="event_QUEST_STORE_RESCUE_c2_choice">Avoid a fight. [ Nil ]</text>
-<text name="event_REBEL_VS_FEDERATION_c1_choice">Aid the Federation ship. [ Rbl SF K: MStd; CK: MStd; DB: [ Hidden Federation Base Quest | MStd | LStd, Crew+, BOs for more ]</text>
+<text name="event_REBEL_VS_FEDERATION_c1_choice">Aid the Federation ship. [ Rbl SF K: MStd; CK: MStd; DB: [ Hidden Federation Base Quest | MStd | LStd, Crew+, BOs for more ] ]</text>
 <text name="event_REBEL_VS_FEDERATION_c2_choice">Use this chance to escape. [ Nil ]</text>
 <text name="event_REBEL_VS_FEDERATION_SAVED_LIST_2_c1_choice">Quickly try to rescue the crew. [ Crew+, LStd ]</text>
 <text name="event_REBEL_VS_FEDERATION_SAVED_LIST_2_c2_choice">(Nano Med-bot Dispersal) Pump their ship with Nano Med-bots to aid in the rescue. [ Crew+ w/Shield skill, HScrapFuel ]</text>
@@ -300,7 +300,7 @@
 <text name="event_ZOLTAN_CREW_STUDY_c2_choice">Decline. [ Nil ]</text>
 <text name="event_ZOLTAN_CREW_STUDY_c3_choice">(Advanced Medbay) Give them your medical records. [ Drone, LStuff ]</text>
 <text name="event_ZOLTAN_CREW_STUDY_c4_choice">(Damaged Stasis Pod) Ask if they can fix this. [ CrystalCrew+ ]</text>
-<text name="ship_DONOR_MANTIS_CHASE1_escape_text">You pick up more chatter from the enemy ship, "You know what... Forget this. Prepare for retreat!" Looks like they're preparing to make a hasty get away! [ K: MStd, CK: HStd, Esc: Mantis Chase Quest ]</text>
+<text name="ship_DONOR_MANTIS_CHASE1_escape_text">You pick up more chatter from the enemy ship, "You know what... Forget this. Prepare for retreat!" Looks like they're preparing to make a hasty get away! [ K: MStd, CK: HStd, Esc: 5s, Mantis Chase Quest ]</text>
 <text name="ship_DONOR_MANTIS_CHASE1_gotaway_c1_choice">After them! [ Mantis Quest Chase ]</text>
 <text name="ship_DONOR_MANTIS_CHASE1_gotaway_c2_choice">Forget it. [ Nil ]</text>
 <text name="ship_DONOR_MANTIS_CHASE2_escape_text">They appear to be trying to get away again. You doubt they'll forget to mask their jump signature this time. [ K: MStd Weapon; CK: HStd Weapon; S: 2-2, HWeap; Esc: 6-6, 12s, HStd ]</text>
@@ -341,7 +341,7 @@
 <!-- data/events_crystal.xml -->
 <text name="event_CRYSTAL_AUTO_text">The Rebels must have sent their automated scouts to find you. One jumps in and immediately moves to attack. [ Auto SF DR ]</text>
 <text name="event_CRYSTAL_CACHE_c1_choice">Attempt to break through with the weapons you have. [ x2 Nil | [ LStuff, Crystal Weapon | LStuff, Crystal Weapon, 2-3 Crystal Boarders | [ Crew- (CB+) or [ -100 Fuel, Weapon, LStuff or BOs ] ] ] ]</text>
-<text name="event_CRYSTAL_CACHE_c2_choice">(Breach Missiles) Use a Breach Missile. [ -1 Miss, [ LStuff, Crystal Weapon | LStuff, Crystal Weapon, 2-3 Crystal Boarders | [ Crew- (CB+) or [ -100 Fuel, Weapon, LStuff or BOs ] ] ]</text>
+<text name="event_CRYSTAL_CACHE_c2_choice">(Breach Missiles) Use a Breach Missile. [ -1 Miss, [ LStuff, Crystal Weapon | LStuff, Crystal Weapon, 2-3 Crystal Boarders | [ Crew- (CB+) or [ -100 Fuel, Weapon, LStuff or BOs ] ] ] ]</text>
 <text name="event_CRYSTAL_CACHE_c3_choice">(Crystal crewmember) Have your Crystalline Being recalibrate your weapons. [ L Stuff, Crystal Weapon | L Stuff, Crystal Weapon, 2-3 Crystal Boarders | [ -1 Crew (CB+) or [ -100 Fuel, Weapon, L Stuff or BOs ] ] ]</text>
 <text name="event_CRYSTAL_CACHE_LIST_3_c1_choice">Pull out now! [ Crew- (CB+) ]</text>
 <text name="event_CRYSTAL_CACHE_LIST_3_c2_choice">Detonate your entire fuel reserves to escape with your crew and the cargo. [ -100 Fuel, Weapon, LStuff ]</text>
@@ -633,7 +633,7 @@
 <!-- data/events_pirate.xml -->
 <text name="event_FLOATING_CARGO_c1_choice">Bring it aboard. [ MStd | LScrap | 2-4 Human Boarders | 2-4 Human Boarders, Prt SF DR ]</text>
 <text name="event_FLOATING_CARGO_c2_choice">Leave it alone, this looks suspicious. [ Nil ]</text>
-<text name="event_FLOATING_CARGO_c3_choice">(Advanced Sensors) Run an advanced scan on the boxes. [ 20-35 Scrap | MStd | [ Prt SF DR or Nil ]</text>
+<text name="event_FLOATING_CARGO_c3_choice">(Advanced Sensors) Run an advanced scan on the boxes. [ 20-35 Scrap | MStd | [ Prt SF DR or Nil ] ]</text>
 <text name="event_FLOATING_CARGO_c4_choice">(Long-Ranged Scanners) Run an advanced scan on the boxes. [ 20-35 Scrap | MStd | Prt SF DR or Nil ]</text>
 <text name="event_FLOATING_CARGO_LIST_4_text">You bring the cargo aboard. Before you have a chance to open it a pirate ship appears out of hiding and charges. At the same time, the crates fly open. Intruders aboard the ship! [ 2-4 Human Boarders, Prt SF DR; S: 0-5, RStuff; Esc: 0.3, 2-4, 15s ]</text>
 <text name="event_FLOATING_CARGO_SCAN_LIST_3_c1_choice">Destroy the crates to prevent another ship from falling victim. [ Prt SF DR ]</text>
@@ -755,7 +755,7 @@
 <text name="event_ROCK_MANTIS_FREIGHTER_LIST_2_text">The Mantis craft may have their differences, but when it comes to you they are of one mind. The smaller ship suffers a power failure as it moves to engage, but the larger one lets off a volley of fire and moves in to attack! [ Mts SF K: MStd, CK: MStd ]</text>
 <text name="event_ROCK_MANTIS_HUNTER_c1_choice">Attack! [ Mts SF DR ]</text>
 <text name="event_ROCK_MANTIS_HUNTER_c1_text">No species deserves a Mantis hunter on their back - time to make the galaxy a little safer. Engage! [ Mts SF DR ]</text>
-<text name="event_ROCK_MANTIS_HUNTER_c2_choice">Ignore them.  [ Nil ]</text>
+<text name="event_ROCK_MANTIS_HUNTER_c2_choice">Ignore them. [ Nil ]</text>
 <text name="event_ROCK_MANTIS_HUNTER_c3_choice">(Rock Ship) Ram the bastards. [ Mts SF DR, Enemy engines@0 ]</text>
 <text name="event_ROCK_MANTIS_HUNTER_c3_text">Before they have a chance, you ram your ship into theirs, causing irreparable damage to their engines. Luckily, your ship's armored hull is hardly dented from the impact. The Mantis ship careens away and you move in to attack. [ Mts SF DR, Enemy engines@0 ]</text>
 <text name="event_ROCK_MANTIS_HUNTER_c4_choice">(Rock Crew) Put your Rock crewmember on the comm. [ Mts SF DR ]</text>
@@ -864,7 +864,7 @@
 <text name="event_NEBULA_SLUG_HULLFIX_RESULT1_3_text">As you dock with the station your readings go haywire. An EMP blast resonates throughout the ship and your engines shut down. You're a sitting duck as a ship reveals itself and silently moves in to attack! [ Slug SF w/Engines@0, K: MStd; CK: HStd ]</text>
 <text name="event_NEBULA_SLUG_HULLFIX_RESULT2_1_c1_choice">Give them the 15 fuel they demand. [ -15 Fuel ]</text>
 <text name="event_NEBULA_SLUG_HULLFIX_RESULT2_1_c2_choice">That's ridiculous! [ -5 Hull, Slug SF DR ]</text>
-<text name="event_NEBULA_SLUG_HULLFIX_RESULT2_1_c2_text">"I'm ssssorry to hear that." He presses a button and an explosion rocks the ship. They must have planted a bomb while 'repairing'! Prepare for a fight! [ -5 Hull, Slug SF DR; S: 0.5, 3-4; Esc: 0.5, 3-4 ] ]</text>
+<text name="event_NEBULA_SLUG_HULLFIX_RESULT2_1_c2_text">"I'm ssssorry to hear that." He presses a button and an explosion rocks the ship. They must have planted a bomb while 'repairing'! Prepare for a fight! [ -5 Hull, Slug SF DR; S: 0.5, 3-4; Esc: 0.5, 3-4 ]</text>
 <text name="event_NEBULA_SLUG_HULLFIX_RESULT2_2_c1_choice">Give them the 50 scrap they demand. [ -50 Scrap ]</text>
 <text name="event_NEBULA_SLUG_HULLFIX_RESULT2_2_c2_choice">Let's get out of here! [ Slug SF w/Weapons@half; K: HStd; CK: HStd ]</text>
 <text name="event_NEBULA_SLUG_HULLFIX_RESULT2_2_c2_text">You activate your thrusters and force your way away from the station. A ship quickly moves in to engage. You'll need to get out of here fast; there may not be time to get the weapons fully operational! [ Slug SF w/Weapons@half; K: HStd; CK: HStd ]</text>
@@ -888,7 +888,7 @@
 <text name="event_SECRET_WORD_ABADOTH_CONCLUSION_c3_choice">Say ANODYNE. [ Ztn SF DR ]</text>
 <text name="event_SECRET_WORD_ABADOTH_CONCLUSION_c4_choice">Say ABADOTH. [ MStd ]</text>
 <text name="event_SECRET_WORD_ABADOTH_CONCLUSION_c5_choice">Say ABATODH. [ Ztn SF DR ]</text>
-<text name="event_SLUG_DISTRESS_MANTIS_c1_choice">Attack the Mantis ship. [ Mts SF K: MStd; CK: MStd; DB: [ LScrapAugment | RStd ]</text>
+<text name="event_SLUG_DISTRESS_MANTIS_c1_choice">Attack the Mantis ship. [ Mts SF K: MStd; CK: MStd; DB: [ LScrapAugment | RStd ] ]</text>
 <text name="event_SLUG_DISTRESS_MANTIS_c2_choice">Attack the Slug ship. [ Slg SF K: HStd, CK: HStd ]</text>
 <text name="event_SLUG_DISTRESS_MANTIS_c3_choice">Of all the species in the galaxy, these two deserve one another. You power up the jump drive. [ Nil ]</text>
 <text name="event_SLUG_DISTRESS_PILOTING_c1_choice">Swear allegiance. [ Nil | SlugCrew+ ]</text>
@@ -949,7 +949,7 @@
 <text name="event_ZOLTAN_BOARDERS_MANTIS_text">The Mantis outcasts sometimes make the mistake of taking the Zoltan for easy game. A scout moves in to attack while a boarding party beams aboard from a nearby transport! [ Mts SF DR 2-3 Mantis Boarders ]</text>
 <text name="event_ZOLTAN_CREW_SCAN_c1_choice">You don't have time for this nonsense. Attack! [ Ztn SF DR ]</text>
 <text name="event_ZOLTAN_CREW_SCAN_c1_text">Expecting resistance, their Energy Shield is raised and ready for combat. [ Ztn SF DR ]</text>
-<text name="event_ZOLTAN_CREW_SCAN_c2_choice">Submit to profiling. [ Nil | [ Crew- (CB-) or [ Ztn SF 2-4 Zoltan Boarders, Weapons@half, K: LStd, CK: MStd ] ]</text>
+<text name="event_ZOLTAN_CREW_SCAN_c2_choice">Submit to profiling. [ Nil | [ Crew- (CB-) or [ Ztn SF 2-4 Zoltan Boarders, Weapons@half, K: LStd, CK: MStd ] ] ]</text>
 <text name="event_ZOLTAN_CREW_SCAN_c3_choice">(Slug Crew) Have your Slug talk them into letting you go. [ MFuel ]</text>
 <text name="event_ZOLTAN_CREW_SCAN_c4_choice">(Mind Control) Make the guards believe they have already checked your crew today. [ MFuel ]</text>
 <text name="event_ZOLTAN_CREW_SCAN_LIST_2_c1_choice">Give up your crewmember. [ Crew- (CB-) ]</text>
@@ -979,7 +979,7 @@
 <text name="event_ZOLTAN_SURRENDER_c1_choice">Accept their offer. [ RStuff ]</text>
 <text name="event_ZOLTAN_TRADE_HUB_c1_choice">Try to talk your way in. [ Ztn SF DR, 2-4 Zoltan Boarders | [ Store | Primitives Quest ] ]</text>
 <text name="event_ZOLTAN_TRADE_HUB_c2_choice">(Teleporter) Beam directly to the civilian deck. [ Store | Primitives Quest ]</text>
-<text name="event_ZOLTAN_TRADE_HUB_c3_choice">(Zoltan Crew) Present his official documentation and pay the entry fee. [-10 Scrap, [ Store | Primitives Quest ] ]</text>
+<text name="event_ZOLTAN_TRADE_HUB_c3_choice">(Zoltan Crew) Present his official documentation and pay the entry fee. [ -10 Scrap, [ Store | Primitives Quest ] ]</text>
 <text name="event_ZOLTAN_TRADE_HUB_c4_choice">Leave. [ Nil ]</text>
 <text name="text_ZOLTAN_FIGHT_1">A Zoltan ship makes contact. "The nature of the day is rotational. The fever is emaciated. The reason is-" They've caught some nasty deep space dementia. Before you can consider finding help for them, they open fire. [ Ztn SF DR ]</text>
 <text name="text_ZOLTAN_FIGHT_2">You're surprised when a stationary Zoltan ship opens fire. It appears there are aggressive pugilists even among the 'enlightened'. [ Ztn SF DR ]</text>
