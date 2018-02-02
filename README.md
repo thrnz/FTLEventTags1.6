@@ -55,7 +55,7 @@ This mod is useful for players wanting to learn the possible results of ingame e
 
 ## Rewards
 * L/M/H/R Prefix: Low/Medium/High/Random
-* Std: Standard Rewards (Srap + 2 random resources + small chance of augment/weapon/drone)
+* Std: Standard Rewards (Scrap + 2 random resources + small chance of augment/weapon/drone)
 * Stuff: Less scrap, but more resources.
 * ScrapFuel: Scrap + Fuel
 * ScrapMiss: Scrap + Missiles
