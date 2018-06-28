@@ -4,7 +4,7 @@
 <text name="weapon_LASER_BURST_2_A_desc">This simple burst laser isn't flashy but it gets the job done. 10% fire chance.</text>
 <text name="weapon_LASER_BURST_3_desc">Slightly improved version of the burst laser that fires more shots per charge. Slightly improved version of the burst laser that fires more shots per charge. 10% fire chance.</text>
 <text name="weapon_LASER_HEAVY_1_desc">Heavy lasers can wreak more havoc than their smaller, burst laser counterparts. 30% fire/breach chance. 20% stun chance.</text>
-<text name="weapon_LASER_HEAVY_2_desc">This heavy laser fires two shots in quick succession, each dealing 2 damage. %30 fire/breach chance. 20% stun chance.</text>
+<text name="weapon_LASER_HEAVY_2_desc">This heavy laser fires two shots in quick succession, each dealing 2 damage. 30% fire/breach chance. 20% stun chance.</text>
 <text name="weapon_LASER_HEAVY_1_SP_desc">Heavy lasers can wreak more havoc than their smaller, burst laser counterparts. This modified version pierces 1 shield. 30% fire/breach chance.</text>
 <text name="weapon_MISSILES_1_desc">This launcher is outdated and weak, but can still be effective. 10% fire/breach/stun chance.</text>
 <text name="weapon_MISSILES_2_PLAYER_desc">Standard missile launcher on most Federation ships. 10% fire/breach/stun chance.</text>
