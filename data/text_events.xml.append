@@ -375,9 +375,9 @@
 <text name="event_CRYSTAL_HUMAN_TESTS_c3_choice">(Rock crewmember) Send your Rockman crew. [ MStd ]</text>
 <text name="event_CRYSTAL_HUMAN_TESTS_c4_choice">(Backup DNA Bank) Send your crew's data. [ MScrapWeapon ]</text>
 <text name="event_CRYSTAL_HUNTER_text">Crystal shards fly past your ship as soon as you jump. You scan to find the assailant and discover a Crystalline ship carrying a number of humans in its cargo bay. It must be hunting the intruding ships! [ Cry SF K: MStd; CK: MStd; S: 0.5, 3-4, HumanCrew+ ]</text>
-<text name="event_CRYSTAL_MANTIS_CRYSTAL_c1_choice">Attack the Mantis. [ Mts SF K: MStd; CK: HStd, DB: [ x2 Nil | x2 RStuff | Crystal Weapon ] ]</text>
+<text name="event_CRYSTAL_MANTIS_CRYSTAL_c1_choice">Attack the Mantis. [ Mts SF K: MStd; CK: HStd; DB: [ x2 Nil | x2 RStuff | Crystal Weapon ] ]</text>
 <text name="event_CRYSTAL_MANTIS_CRYSTAL_c2_choice">Ignore them. [ Nil ]</text>
-<text name="event_CRYSTAL_PIRATE_CRYSTAL_c1_choice">Attack the pirate. [ Prt SF K: MStd, CK, HStd, DB: [ x2 Nil | x2 RStuff | Crystal Weapon ] ]</text>
+<text name="event_CRYSTAL_PIRATE_CRYSTAL_c1_choice">Attack the pirate. [ Prt SF K: MStd; CK: HStd; DB: [ x2 Nil | x2 RStuff | Crystal Weapon ] ]</text>
 <text name="event_CRYSTAL_PIRATE_CRYSTAL_c2_choice">Ignore them. [ Nil ]</text>
 <text name="event_CRYSTAL_REBEL_text">As soon as you arrive, a Rebel ship jumps in after you; they must be really hot on your tail. [ Rbl SF DR S: 0.5, 2-3, RStuff; Esc: 0.5, 3-4 ]</text>
 <text name="event_CRYSTAL_REBEL_CRYSTAL_c1_choice">Attack the Rebel. [ Rbl SF K: MStd, CK: HStd, DB: [ x2 Nil | x2 RStuff | Crystal Weapon ] ]</text>
