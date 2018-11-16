@@ -136,7 +136,7 @@
 <text name="event_ALISON_DEFECTOR_HELP_3_text">Relieved and light-headed, your new crewmember gets to work as the Rebel ship attacks. [ Rbl SF DR; S: 0.5, 2-3, RStuff; Esc: 0.5, 3-4 ]</text>
 <text name="event_ALISON_DEFECTOR_HELP_6_c0_clone">The eviscerated crewmember's clone launches out of the clone bay, eager to seek revenge. [ Rbl SF DR; S: 0.5, 2-3, RStuff; Esc: 0.5, 3-4 ]</text>
 <text name="event_ALISON_DEFECTOR_HELP_6_text">The Rebel makes to take his assigned station, then suddenly turns and eviscerates the nearest crew-member. Red Alert! [ Rbl SF DR; S: 0.5, 2-3, RStuff; Esc: 0.5, 3-4 ]</text>
-<text name="event_ALISON_DEFECTOR_REJECT_3_c1_choice">Reluctantly accept his proposal and fight the Rebel ship. [ -3 Hull, Rbl SF DR, Fleet+ | -3 Hull, 2 Human Boarders, Rbl SF DR | x3 HumanCrew+, Quest, Rbl SF DR | 1 HumanBoarder, Rbl SF DR, Crew- (CB+) ]</text>
+<text name="event_ALISON_DEFECTOR_REJECT_3_c1_choice">Reluctantly accept his proposal and fight the Rebel ship. [ -3 Hull, Rbl SF DR, Fleet+ | -3 Hull, 2 Human Boarders, Rbl SF DR | (Visible) x3 HumanCrew+, Quest, Rbl SF DR | 1 HumanBoarder, Rbl SF DR, Crew- (CB+) ]</text>
 <text name="event_ALISON_DEFECTOR_REJECT_3_c2_choice">Reject him outright and execute him on the spot. [ Rbl SF DR; S: 0.5, 2-3, RStuff; Esc: 0.5, 3-4 ]</text>
 <text name="event_ALISON_DEFECTOR_REJECT_3_c3_choice">Reject his offer again. [ Rbl SF DR, 1 Human Boarder; S: 0.5, 2-3, RStuff; Esc: 0.5, 3-4 ]</text>
 <text name="event_ALISON_MANTIS_CREW_c1_c1_choice">Side with the fugitive and fight the Engi ship. [ -5 Hull, SF DR | MantisCrew+, Eng SF DR ]</text>
