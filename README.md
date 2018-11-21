@@ -19,7 +19,7 @@ This mod is useful for players wanting to learn the possible results of ingame e
  * I'm unsure what the 'chance', 'min', 'max', and 'timer' values actually mean for surrenders and escapes, but have tagged them anyway 'as is' from the XMLs.
  * Works with FTL v1.6. For FTL v1.5.13, use [this](https://github.com/thrnz/FTLEventTags).
  * Languages other than English aren't supported
- * Consistent with FTL v1.6.8
+ * Consistent with FTL v1.6.9
 
 ## To-do
  * ~~Re-do screenshots.~~
