@@ -15,7 +15,7 @@
 <text name="event_OVERRIDE_FEDERATION_BASE_ASSIST_1_text">You arrive in the sector to see a small outpost being bombarded by an automated drone. This must be the Federation base you were told about! [ Auto SF K: LStd, DB: [ Crew+, +7 Hull, HStd | LScrapWeapon, Crew+ ] ]</text>
 <text name="event_OVERRIDE_FEDERATION_BASE_ASSIST_3_text">You arrive in the sector to see the Federation outpost under fire from multiple Rebel ships. However, as you approach they get their Anti-Ship Battery online and disable two of the smaller ships. You swoop in to assist, taking down the wing leader. [ Friendly ASB, Rbl SF K: LStd, CK: MStd, DB: [ Crew+, MScrap ], Esc: [ 0.8, 4-6, Same as DB ] ]</text>
 <text name="event_OVERRIDE_FEDERATION_BASE_ASSIST_4_text">You arrive in the sector to see a small Federation outpost using their Anti-Ship Battery to fire at an automated drone. Debris from other ships is strewn around the area. It looks like the brunt of the battle is already over. You move in to assist. [ Friendly ASB, Auto SF K: LStd, DB: [ Crew+, +7 Hull, HStd ] ]</text>
-
+Nil
 <!-- data/dlcEvents_anaerobic.xml -->
 <text name="event_LANIUS_AUTO_REBEL_c1_choice">Fight the ship. [ Lns SF; K: MStd; CK: HStd; DB: [ LScrap, Map | LScrap, Fleet- ]; Esc: [ 0.2, 2-4, Same as DB ] ]</text>
 <text name="event_LANIUS_AUTO_REBEL_c2_choice">Leave them alone. [ Nil ]</text>
@@ -78,6 +78,8 @@
 <text name="event_LANIUS_SOLO_SALVAGE_c3_choice">(Lanius Crew) Request some scrap. [ MScrap | Nil | [ Nil or Lns SF DLR; S: 0.2, 3-4, RStuff; Esc: 0.2, 2-4 ] ]</text>
 <text name="event_LANIUS_SOLO_SALVAGE_LIST_3_c1_choice">Attack the ship. [ Lns SF DLR; S: 0.2, 3-4, RStuff; Esc: 0.2, 2-4 ]</text>
 <text name="event_LANIUS_SOLO_SALVAGE_LIST_3_c2_choice">Leave. [ Nil ]</text>
+<text name="event_LANIUS_SOLO_SALVAGE_LIST_3_c1_choice">Attack the ship. [ Lns SF DLR; S: 0.2, 3-4, RStuff; Esc: 0.2, 2-4 ]</text>
+<text name="event_LANIUS_SOLO_SALVAGE_LIST_3_c2_choice">Leave. [ Nil ]</text>
 <text name="event_LANIUS_SLUG_DISTRESS_c1_choice">Attack the Lanius ship. [ Lns SF K: MStd, CK: MStd, DB: [ Nil | MStd ] ]</text>
 <text name="event_LANIUS_SLUG_DISTRESS_c2_choice">Leave the Slugs to their fate. [ Nil ]</text>
 <text name="event_LANIUS_RESEARCHER_CONTACT_c1_choice">Ask if they have anything that could help your mission. [ MScrap | MScrapDrones | Weapon | Nil ]</text>
@@ -98,7 +100,7 @@
 <text name="event_LANIUS_TRADER_TRANSLATOR_c3_c1_choice">Purchase the translator for 40 scrap. [ LaniusCrew+ for 40 Scrap ]</text>
 <text name="event_LANIUS_TRADER_TRANSLATOR_c3_c2_choice">Decline again. [ Nil ]</text>
 <text name="event_LANIUS_TRADER_c2_choice">Decline. [ Nil ]</text>
-<text name="event_LANIUS_TRADER_c3_choice">(Lanius Crew) Ask for an alternative trade. [ Better Deals ]</text>
+<text name="event_LANIUS_TRADER_c3_choice">(Lanius Crew) Ask for an alternative trade. [ -3-7 fuel for 20-35 Scrap | -3-7 Missiles for 25-50 Scrap | -3-7 Drones for 25-50 Scrap ]</text>
 <text name="text_LANIUS_FIGHT_TEXT_1">Sensors indicate a small Lanius cruiser in the process of salvaging another small Lanius ship. Before you have a chance to wonder what caused them to turn on each other, the survivor notices you and moves in to attack. [ Lns SF DLR; S: 0.2, 3-4, RStuff; Esc: 0.2, 2-4 ]</text>
 <text name="text_LANIUS_FIGHT_TEXT_10">You have stumbled across a mining expedition - unfortunately, the miners are the Lanius, and they've chosen your ship as their target! [ Lns SF DLR; S: 0.2, 3-4, RStuff; Esc: 0.2, 2-4 ]</text>
 <text name="text_LANIUS_FIGHT_TEXT_2">Shortly after your arrival, a Lanius ship jumps near the beacon. It begins to move slowly toward you. You open wide band communication channels, attempting to make contact. However, it either ignores you or is unable to receive the messages. As they get closer you issue the order to charge weapons and find they do the same. [ Lns SF DLR; S: 0.2, 3-4, RStuff; Esc: 0.2, 2-4 ]</text>
