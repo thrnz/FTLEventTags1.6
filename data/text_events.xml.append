@@ -15,7 +15,7 @@
 <text name="event_OVERRIDE_FEDERATION_BASE_ASSIST_1_text">You arrive in the sector to see a small outpost being bombarded by an automated drone. This must be the Federation base you were told about! [ Auto SF K: LStd, DB: [ Crew+, +7 Hull, HStd | LScrapWeapon, Crew+ ] ]</text>
 <text name="event_OVERRIDE_FEDERATION_BASE_ASSIST_3_text">You arrive in the sector to see the Federation outpost under fire from multiple Rebel ships. However, as you approach they get their Anti-Ship Battery online and disable two of the smaller ships. You swoop in to assist, taking down the wing leader. [ Friendly ASB, Rbl SF K: LStd, CK: MStd, DB: [ Crew+, MScrap ], Esc: [ 0.8, 4-6, Same as DB ] ]</text>
 <text name="event_OVERRIDE_FEDERATION_BASE_ASSIST_4_text">You arrive in the sector to see a small Federation outpost using their Anti-Ship Battery to fire at an automated drone. Debris from other ships is strewn around the area. It looks like the brunt of the battle is already over. You move in to assist. [ Friendly ASB, Auto SF K: LStd, DB: [ Crew+, +7 Hull, HStd ] ]</text>
-Nil
+
 <!-- data/dlcEvents_anaerobic.xml -->
 <text name="event_LANIUS_AUTO_REBEL_c1_choice">Fight the ship. [ Lns SF; K: MStd; CK: HStd; DB: [ LScrap, Map | LScrap, Fleet- ]; Esc: [ 0.2, 2-4, Same as DB ] ]</text>
 <text name="event_LANIUS_AUTO_REBEL_c2_choice">Leave them alone. [ Nil ]</text>
