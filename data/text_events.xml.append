@@ -209,7 +209,7 @@
 <text name="event_DONOR_PONY_c2_choice">Ignore it. [ Nil ]</text>
 <text name="event_DONOR_PLAGUE_c1_choice">Board the station and look for survivors. [ LScrap | LScrap, HumanCrew+ | LScrap, Crew- (CB-), Lvl 2 Medbay will revive ]</text>
 <text name="event_DONOR_PLAGUE_c2_choice">Scrap some of the debris. [ RScrap ]</text>
-<text name="event_ESCORT_BEACON_c1_choice">Lead them to their destination. [ LScrap, Escort Quest ]</text>
+<text name="event_ESCORT_BEACON_c1_choice">Lead them to their destination. [ LScrap, Quest: [ Rbl SF DR | HStd | +5 Hull, Store | Reactor+1 ] ]</text>
 <text name="event_ESCORT_BEACON_c2_choice">Decline. [ Nil ]</text>
 <text name="event_ESCORT_BEACON_c3_choice">(Advanced FTL Navigation) Have your navigation software calculate and upload route instructions to their ship. [ HStd ]</text>
 <text name="event_FEDERATION_BASE_ASSIST_1_text">You arrive in the sector to see a small outpost being bombarded by an automated drone. This must be the Federation base you were told about! [ Auto SF K: LStd, DB: [ LScrapWeapon, Crew+ | HStd, +7 Hull, Crew+ ] ]</text>
@@ -923,6 +923,14 @@
 <text name="event_SLUG_FIGHT_text">It's rare for the Slugs to stay exposed in open space for long periods - the ship here may be lost, or just passing through, but either way he moves in to attack! [ Slg SF DR; S: 0.5, 3-4; Esc: 0.5, 3-4 ]</text>
 <text name="event_SLUG_MANTIS_text">You intercept comm chatter from an incoming Mantis ship. "Look. This ship appears not to be owned by the squishy ones. Maybe they won't smell so bad when we cut them open." They move in on your position. [ Mts SF DR ]</text>
 <text name="event_SLUG_UNLOCK_SURRENDER_c1_choice">Let them live. [ [ HFuel | LStuff | MStuff ] | [ BioBeam or Slug Unlock Quest ] ]</text>
+<text name="event_SLUG_UNLOCK_SURRENDER_c1_c1_choice">Accept the prototype weapon. [ BioBeam ]</text>
+<text name="event_SLUG_UNLOCK_SURRENDER_c1_c2_choice">We don't want the weapon, we want information. [ Slug Unlock Quest ]</text>
+<text name="event_SLUG_UNLOCK_1_c1_choice">Charge them before they escape. [ Slg SF K: HStd; CK: HStd ]</text>
+<text name="event_SLUG_UNLOCK_1_c2_choice">Try to tail them without being noticed. [ Slg SF K: HStd; CK: HStd or Nil or SlugCrew/Lvl2 Sensors BOs ]</text>
+<text name="event_SLUG_UNLOCK_2_c1_choice">Fly slowly toward their last known position. [ Slg SF K: HStd; CK: HStd ]</text>
+<text name="event_SLUG_UNLOCK_2_c2_choice">Wait and hope the escort leaves. [ Nil ]</text>
+<text name="event_SLUG_UNLOCK_2_c3_choice">(Slug Crew) Have your crewmember monitor their life signatures. [ Slg SF K: HStd, Slug Gel; CK: HStd, Slug Gel; Esc: 22-22, 35s ]</text>
+<text name="event_SLUG_UNLOCK_2_c4_choice">(Improved Sensors) Try to maintain a lock on their ships from a distance. [ Slg SF K: HStd, Slug Gel; CK: HStd, Slug Gel; Esc: 22-22, 35s ]</text>
 <text name="event_SLUG_SURRENDER_c1_choice">Let them live. [ [ HFuel | LStuff | MStuff ] | [ BioBeam or Slug Unlock Quest ] ]</text>
 <text name="text_NEBULA_SLUG_FIGHT_1">Your sensors are no match for the Slug's telepathic abilities - a ship you never even saw opens fire from astern! [ Slg SF DR; S: 0.5, 3-4; Esc: 0.5, 3-4 ]</text>
 <text name="text_NEBULA_SLUG_FIGHT_2">The Slug vessel you encounter here has obviously made a big score and is looking to test its new armaments. They picked the wrong ship to attack. [ Slg SF DR; S: 0.5, 3-4; Esc: 0.5, 3-4 ]</text>
