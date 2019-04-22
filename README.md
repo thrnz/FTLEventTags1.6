@@ -23,6 +23,7 @@ This mod is useful for players wanting to learn the possible results of ingame e
 
 ## To-do
  * ~~Re-do screenshots.~~
+ * Complete and double check quest reference
 
 ## Legend
 * SF: Ship Fight
@@ -53,7 +54,6 @@ This mod is useful for players wanting to learn the possible results of ingame e
 * Cry - Crystal class ship
 * PZtn, PRck - Pirate class Zoltan/Rock ship etc.
  
-
 ## Rewards
 * L/M/H/R Prefix: Low/Medium/High/Random
 * Std: Standard Rewards (Scrap + 2 random resources + small chance of augment/weapon/drone)
@@ -88,6 +88,32 @@ A ship fight against a Rebel class ship. Killing the ship gives medium scrap + 2
 * [ Fleet-- ]
 
 The fleet is delayed by 2 jumps
+
+## Quests (incomplete)
+To save space, Quests are generally tagged by name and not outcome.
+* Escort: [ Rbl SF DR | HStd | +5 Hull, Store | Reactor+1 ]
+* Defector: [ HStuff | LScrap ]
+* Merchant Investigate: [ MStd [ MScrapDrone Quest or [ Weapon | HStd | MScrapDrone Quest ] ] | Crew+ MScrapDrone Quest or [ Weapon | HStd | MScrapDrone Quest ] or Teleport BO: [ Weapon | HStd | MScrapDrone Quest ] | Prt SF K: MStd; CK: MStd ]
+* Merchant Delivery: MERCHANT_DELIVER_LIST
+* MERCHANT_INVESTIGATE_DELIVER: [ MScrapDrone ] (tag as-is)
+* CrewKill: [ Prt SF K: -15 Hull; CK: HScrapWeapon ]
+* Mantis War Camp: [ [ Nil | Mts SF K: MStd, CK: HStd ] or [ Missile Weapon BO: -1 Miss, Mts SF K: MStd, CK: HStd ] or [2 Fire Bomb BO: -2 Miss, HStuff, EngiCrew+ ] ]
+* Hidden Federation Base: [ HScrapDrone | LStd, Crew+ | MStd, +35 Hull | Nil or Lvl2 Scanner [ MStd ] or Lvl3 Scanner [ MScrapWeapon ] or LRS [ MScrapWeapon ] | Same as Federation Base Assist Quest ]
+* Federation Base Assist: [ x2 Auto SF, K: LStd, DB: [ Crew+, +7 Hull, HStd | LScrapWeapon, Crew+ ] | [ Friendly ASB, Rbl Elite SF, K: LStd, CK: MStd, DB: [ Crew+, MScrap ] ] | Friendly ASB, Auto SF, K: LStd, DB: [ Crew+, +7 Hull, HStd ] ]
+* Space Dock Rescue: [ Rbl SF K: MScrap; CK: MScrap; DB: [ +5 Hull, Store ] ]
+* MantisThiefStash: [ HScrapWeapon ] (tag as-is)
+* Mantis Chase: [ Mts SF K: MStd Weapon; CK: HStd Weapon; S: 2-2, HScrapWeap; Esc: 6-6, 12s, HStd ]
+* Crystal Unlock: [ MFuel, +10 Hull, Crystal Vengeance Augment ]
+* Rock Marriage: [ [ Random Augment, LScrap ] or [ +1 Rock Crew, Rck SF K: MStd, CK: HStd ] ]
+* Rock Homeworlds: [ Rck SF w/Solar-flare K: MStd, CK: HStd, Esc: 28-28, 32s, Quest [ Rock Plating , +29 Hull ] ]
+* Engi Unlock (Real): ENGI_UNLOCK_2REAL
+* Engi Unlock (Decoy): ENGI_UNLOCK_2FAKE
+* Engi Unlock:
+* Abadoth: SECRET_WORD_ABADOTH
+* Slug Pirate Trap: QUEST_SLUG_PIRATE_TRAP2
+* Slug Unlock:
+* Primitives: ZOLTAN_QUEST_PRIMITIVES
+* Construction: QUEST_CONSTRUCTIONYARD_LIST
 
 ## Screenshots:
 
