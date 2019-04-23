@@ -92,7 +92,7 @@ A ship fight against a Rebel class ship. Killing the ship gives medium scrap + 2
 The fleet is delayed by 2 jumps
 
 ## Quests
-To save space, Quests are generally tagged by name and not outcome.
+To save space, Quests are generally tagged by name and not outcome. For reference, here is a list of all Quest beacon outcomes:
 * Abadoth
   * [ Fleet+, MStd or Ztn SF DR ] or Slug BO: [ MStd or Ztn SF DR ]
 * Construction
