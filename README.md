@@ -93,29 +93,67 @@ The fleet is delayed by 2 jumps
 
 ## Quests
 To save space, Quests are generally tagged by name and not outcome.
-* Escort: [ Rbl SF DR | HStd | +5 Hull, Store | Reactor+1 ] (tagged as-is)
-* Defector: [ HStuff | LScrap ]
-* Merchant Investigate: [ MStd [ MScrapDrone Quest or [ Weapon | HStd | MScrapDrone Quest ] ] | Crew+ MScrapDrone Quest or [ Weapon | HStd | MScrapDrone Quest ] or Teleport BO: [ Weapon | HStd | MScrapDrone Quest ] | Prt SF K: MStd; CK: MStd ]
-* Merchant Investigate Deliver: [ MScrapDrone ] (tagged as-is)
-* Merchant Delivery: [ [ -5 Drones for 20-30 Scrap or [ -5 Drones for 40-55 Scrap or Nil ] or MindControl BO: -5 Drones for 40-55 Scrap or Lvl6 Weapons BO: -5 Drones for 55-75 Scrap 2-3 Fuel ] | [ [ MDrones | Crew+, 3-4 Human Boarders | Crew- (CB-), avoid w/Lvl 2+ Medbay ] or AP Drone BO:  [ x2 -1 Drone | -1 Drone, MStd ] ] ]
-* CrewKill: [ Prt SF K: -15 Hull; CK: HScrapWeapon ]
-* Mantis War Camp: [ [ Nil | Mts SF K: MStd, CK: HStd ] or [ Missile Weapon BO: -1 Miss, Mts SF K: MStd, CK: HStd ] or [2 Fire Bomb BO: -2 Miss, HStuff, EngiCrew+ ] ]
-* Hidden Federation Base: [ HScrapDrone | LStd, Crew+ | MStd, +35 Hull | Nil or Lvl2 Scanner [ MStd ] or Lvl3 Scanner [ MScrapWeapon ] or LRS [ MScrapWeapon ] | Same as Federation Base Assist Quest ]
-* Federation Base Assist: [ x2 Auto SF, K: LStd, DB: [ Crew+, +7 Hull, HStd | LScrapWeapon, Crew+ ] | [ Friendly ASB, Rbl Elite SF, K: LStd, CK: MStd, DB: [ Crew+, MScrap ] ] | Friendly ASB, Auto SF, K: LStd, DB: [ Crew+, +7 Hull, HStd ] ]
-* Space Dock Rescue: [ Rbl SF K: MScrap; CK: MScrap; DB: [ +5 Hull, Store ] ]
-* MantisThiefStash: [ HScrapWeapon ] (tagged as-is)
-* Mantis Chase: [ Mts SF K: MStd Weapon; CK: HStd Weapon; S: 2-2, HScrapWeap; Esc: 6-6, 12s, HStd ]
-* Crystal Unlock: [ MFuel, +10 Hull, Crystal Vengeance Augment ]
-* Rock Marriage: [ [ Random Augment, LScrap ] or [ +1 Rock Crew, Rck SF K: MStd, CK: HStd ] ]
-* Rock Homeworlds: [ Rck SF w/Solar-flare K: MStd, CK: HStd, Esc: 28-28, 32s, Quest [ Rock Plating , +29 Hull ] ]
-* Engi Unlock (Real): [ Rbl SF K: MStd; CK: HStd; Esc: 18-18, 40s; S: 4-4, Engi Unlock Quest ]
-* Engi Unlock (Decoy): [ Rbl SF K: MStd; CK: MStd (Decoy); Esc: 18-18, 40s; S: 4-4, Nothing ] (Note, the decoy has a ',' in the text. The real one does not)
-* Engi Unlock: [ Mts w/Human crew SF K: Nil; CK: MStd; DB: +20 Hull, HStd, Titanium System Casing ]
-* Abadoth: [ [ Fleet+, MStd or Ztn SF DR ] or Slug BO: [ MStd or Ztn SF DR ] ]
-* Slug Pirate Trap: [ [ Prt SF K: MStd; CK: HStd; S:HScrap ] or [ Prt SF K: LStd; CK: MStd ] ]
-* Slug Unlock: [ [ Slg SF K: HStd; CK: HStd ] or [ SlugCrew/Lvl2 Sensor BO: Slg SF K: HStd, Slug Gel; CK: HStd, Slug Gel; Esc: 22-22, 35s ] ]
-* Primitives: [ [ Ztn SF; K: LStd, Fleet+; CK: RStd, Fleet+ ] or [ Rbl SF K: LScrapWeapon, CK: MScrapWeapon ] or [ Nil ] ]
-* Construction: [ [ Rbl SF Enemy ASB; K: MStd; CK: HStd, DB: MScrap ] or Nil | [ Nil | x2 LScrap | [ LScrap | CloneBay BO [ x2 Crew+ | 1 Boarder ] ] | 2 Boarders, Prt SF DR | 2-4 Boarders, Enemy ASB ] or Nil | [ MScrap, -4 Fuel ] or -1 Fuel or Nil ]
+* Escort
+  * Rbl SF DR
+  * HStd
+  * +5 Hull, Store
+  * Reactor+1
+* Defector
+  * HStuff
+  * LScrap
+* Merchant Investigate
+  * MStd, [ MScrapDrone Quest or [ Weapon | HStd | MScrapDrone Quest ] ]
+  * Crew+ MScrapDrone Quest or [ Weapon | HStd | MScrapDrone Quest ] or Teleport BO: [ Weapon | HStd | MScrapDrone Quest ]
+  * Prt SF K: MStd; CK: MStd
+* Merchant Investigate Deliver
+  * MScrapDrone
+* Merchant Delivery
+  * -5 Drones for 20-30 Scrap or [ -5 Drones for 40-55 Scrap or Nil ] or MindControl BO: -5 Drones for 40-55 Scrap or Lvl6 Weapons BO: -5 Drones for 55-75 Scrap 2-3 Fuel
+  * [ MDrones | Crew+, 3-4 Human Boarders | Crew- (CB-), avoid w/Lvl 2+ Medbay ] or AP Drone BO: [ x2 -1 Drone | -1 Drone, MStd ]
+* Crew Kill
+  * Prt SF K: -15 Hull; CK: HScrapWeapon
+* Mantis War Camp Quest
+  * [ Nil | Mts SF K: MStd, CK: HStd ] or [ Missile Weapon BO: -1 Miss, Mts SF K: MStd, CK: HStd ] or [2 Fire Bomb BO: -2 Miss, HStuff, EngiCrew+ ]
+* Hidden Federation Base
+  * HScrapDrone
+  * LStd, Crew+
+  * MStd, +35 Hull
+  * Nil or Lvl2 Scanner [ MStd ] or Lvl3 Scanner [ MScrapWeapon ] or LRS [ MScrapWeapon ]
+  * Same as Federation Base Assist Quest
+* Federation Base Assist
+  * x2 Auto SF, K: LStd, DB: [ Crew+, +7 Hull, HStd | LScrapWeapon, Crew+ ]
+  * Friendly ASB, Rbl Elite SF, K: LStd, CK: MStd, DB: [ Crew+, MScrap ]
+  * Friendly ASB, Auto SF, K: LStd, DB: [ Crew+, +7 Hull, HStd ]
+* Space Dock Rescue
+  * Rbl SF K: MScrap; CK: MScrap; DB: [ +5 Hull, Store ]
+* Mantis Thief Stash
+  * HScrapWeapon
+* Mantis Chase
+  * Mts SF K: MStd Weapon; CK: HStd Weapon; S: 2-2, HScrapWeap; Esc: 6-6, 12s, HStd
+* Crystal Unlock
+  * MFuel, +10 Hull, Crystal Vengeance Augment
+* Rock Marriage
+  * [ Random Augment, LScrap ] or [ +1 Rock Crew, Rck SF K: MStd, CK: HStd ]
+* Rock Homeworlds
+  * Rck SF w/Solar-flare K: MStd, CK: HStd, Esc: 28-28, 32s, Quest [ Rock Plating , +29 Hull ]
+* Engi Unlock (Real)
+  * Rbl SF K: MStd; CK: HStd; Esc: 18-18, 40s; S: 4-4, Engi Unlock Quest
+* Engi Unlock (Decoy)
+  * Rbl SF K: MStd; CK: MStd (Decoy); Esc: 18-18, 40s; S: 4-4, Nothing ] (Note, the decoy has a ',' in the text. The real one does not)
+* Engi Unlock
+  * Mts w/Human crew SF K: Nil; CK: MStd; DB: +20 Hull, HStd, Titanium System Casing
+* Abadoth
+  * [ Fleet+, MStd or Ztn SF DR ] or Slug BO: [ MStd or Ztn SF DR ]
+* Slug Pirate Trap
+  * [ Prt SF K: MStd; CK: HStd; S:HScrap ] or [ Prt SF K: LStd; CK: MStd ]
+* Slug Unlock
+  * [ Slg SF K: HStd; CK: HStd ] or [ SlugCrew/Lvl2 Sensor BO: Slg SF K: HStd, Slug Gel; CK: HStd, Slug Gel; Esc: 22-22, 35s ]
+* Primitives
+  * [ Ztn SF; K: LStd, Fleet+; CK: RStd, Fleet+ ] or [ Rbl SF K: LScrapWeapon, CK: MScrapWeapon ] or [ Nil ]
+* Construction
+  * [ Rbl SF Enemy ASB; K: MStd; CK: HStd, DB: MScrap ] or Nil
+  * [ Nil | x2 LScrap | [ LScrap | CloneBay BO [ x2 Crew+ | 1 Boarder ] ] | 2 Boarders, Prt SF DR | 2-4 Boarders, Enemy ASB ] or Nil
+  * [ MScrap, -4 Fuel ] or -1 Fuel or Nil
 
 ## Screenshots:
 
