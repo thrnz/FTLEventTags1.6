@@ -31,7 +31,7 @@ This mod is useful for players wanting to learn the possible results of ingame e
 * DLR: Default Lanius Rewards K: [ 3x MStd | HStd ], CK: [ 3x MStd | 2x HStd | HScrapFuel | Crew+ LScrap | LScrapDrone ]
 * K: Kill reward
 * CK: Crew Kill reward
-* DB: Double reward
+* DB: Double reward. You will get this reward regardless of how the ship is defeated
 * S: Surrender (Chance, Min-Max, Offer)
 * Esc: Escape (Chance, Min-Max, Timer)
 * BO: Blue Option
@@ -86,6 +86,9 @@ One of 4 possible outcomes: Two chances at having nothing happen, one chance of 
 * [ Rbl SF K: MStd; S: 0.2, 3-4, RStuff; Esc: 0.4, 3-4; CK: HStd ]
 
 A ship fight against a Rebel class ship. Killing the ship gives medium scrap + 2 resources. Getting a crew kill gives high scrap + 2 resources. The ship has a chance of trying to escape/surrendering.
+
+* [ Prt SF K: MStd; CK: HStd; DB: [ Crew+ | MStd | LStd | LWeap | +5 Hull | Nil ] ]
+A ship fight against a Pirate class ship. Killing the ship gives medium scrap + 2 resources. Getting a crew kill gives high scrap + 2 resources. On defeating the ship (either via ship kill or crew kill), you will then get one of six outcomes: new crew member, medium scrap + 2 resources, low scrap + 2 resources, low scrap + weapon, 5 point hull repair, or nothing.
 
 * [ Fleet-- ]
 
