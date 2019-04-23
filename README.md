@@ -88,6 +88,7 @@ One of 4 possible outcomes: Two chances at having nothing happen, one chance of 
 A ship fight against a Rebel class ship. Killing the ship gives medium scrap + 2 resources. Getting a crew kill gives high scrap + 2 resources. The ship has a chance of trying to escape/surrendering.
 
 * [ Prt SF K: MStd; CK: HStd; DB: [ Crew+ | MStd | LStd | LWeap | +5 Hull | Nil ] ]
+
 A ship fight against a Pirate class ship. Killing the ship gives medium scrap + 2 resources. Getting a crew kill gives high scrap + 2 resources. On defeating the ship (either via ship kill or crew kill), you will then get one of six outcomes: new crew member, medium scrap + 2 resources, low scrap + 2 resources, low scrap + weapon, 5 point hull repair, or nothing.
 
 * [ Fleet-- ]
