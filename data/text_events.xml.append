@@ -78,8 +78,6 @@
 <text name="event_LANIUS_SOLO_SALVAGE_c3_choice">(Lanius Crew) Request some scrap. [ MScrap | Nil | [ Nil or Lns SF DLR; S: 0.2, 3-4, RStuff; Esc: 0.2, 2-4 ] ]</text>
 <text name="event_LANIUS_SOLO_SALVAGE_LIST_3_c1_choice">Attack the ship. [ Lns SF DLR; S: 0.2, 3-4, RStuff; Esc: 0.2, 2-4 ]</text>
 <text name="event_LANIUS_SOLO_SALVAGE_LIST_3_c2_choice">Leave. [ Nil ]</text>
-<text name="event_LANIUS_SOLO_SALVAGE_LIST_3_c1_choice">Attack the ship. [ Lns SF DLR; S: 0.2, 3-4, RStuff; Esc: 0.2, 2-4 ]</text>
-<text name="event_LANIUS_SOLO_SALVAGE_LIST_3_c2_choice">Leave. [ Nil ]</text>
 <text name="event_LANIUS_SLUG_DISTRESS_c1_choice">Attack the Lanius ship. [ Lns SF K: MStd, CK: MStd, DB: [ Nil | MStd ] ]</text>
 <text name="event_LANIUS_SLUG_DISTRESS_c2_choice">Leave the Slugs to their fate. [ Nil ]</text>
 <text name="event_LANIUS_RESEARCHER_CONTACT_c1_choice">Ask if they have anything that could help your mission. [ MScrap | MScrapDrones | Weapon | Nil ]</text>
@@ -930,6 +928,7 @@
 <text name="event_SLUG_UNLOCK_2_c1_choice">Fly slowly toward their last known position. [ Slg SF K: HStd; CK: HStd ]</text>
 <text name="event_SLUG_UNLOCK_2_c2_choice">Wait and hope the escort leaves. [ Nil ]</text>
 <text name="event_SLUG_UNLOCK_2_c3_choice">(Slug Crew) Have your crewmember monitor their life signatures. [ Slg SF K: HStd, Slug Gel; CK: HStd, Slug Gel; Esc: 22-22, 35s ]</text>
+<text name="event_SLUG_UNLOCK_2_c3_c1_text">The only ship left near the cruiser is an interceptor. This should be easy! [ Slg SF K: HStd, Slug Gel; CK: HStd, Slug Gel; Esc: 22-22, 35s ]</text>
 <text name="event_SLUG_UNLOCK_2_c4_choice">(Improved Sensors) Try to maintain a lock on their ships from a distance. [ Slg SF K: HStd, Slug Gel; CK: HStd, Slug Gel; Esc: 22-22, 35s ]</text>
 <text name="event_SLUG_SURRENDER_c1_choice">Let them live. [ [ HFuel | LStuff | MStuff ] | [ BioBeam or Slug Unlock Quest ] ]</text>
 <text name="text_NEBULA_SLUG_FIGHT_1">Your sensors are no match for the Slug's telepathic abilities - a ship you never even saw opens fire from astern! [ Slg SF DR; S: 0.5, 3-4; Esc: 0.5, 3-4 ]</text>
@@ -1125,7 +1124,6 @@
 <text name="event_TERRAFORMING_SCAN_c1_c2_choice">(Advanced Sensors) Set sensors to maximum and scan. [ +1 Oxygen | Prt SF DR | More... ]</text>
 <text name="event_TERRAFORMING_SCAN_c1_c3_choice">(Zoltan) Send your crewman to overcharge their systems. [ +1 Oxygen | Prt SF DR | More... ]</text>
 <text name="event_TERRAFORMING_SCAN_c2_choice">You do not have time. [ Nil ]</text>
-<text name="event_TRADER_UPGRADES_EXCHANGE_c1_choice">Agree to the trade. [ Reactor +1 ]</text>
 <text name="event_TRADER_UPGRADES_EXCHANGE_c2_choice">Respectfully decline. [ Nil ]</text>
 <text name="event_WRECKAGE_EVENT_c1_choice">(Improved Sensors) Use your Sensors to scan the wreckage. [ MStuff ]</text>
 <text name="event_WRECKAGE_EVENT_c2_choice">(Advanced Sensors) Use your Sensors to scan the wreckage. [ HStuff | LScrapWeapon ]</text>
