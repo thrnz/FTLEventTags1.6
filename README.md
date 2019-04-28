@@ -2,7 +2,7 @@
 
 When is a Crew Kill no better than a Ship Kill? Which Blue Option gives the best reward? What are the chances of losing crew to Giant Alien Spiders?
 
-This mod tags approximately 1000 lines of in-game text to show the possible outcomes of various choices and events. No information is displayed that can't otherwise be found in the game files, or from Googling dialog. It doesn't effect the gameplay mechanics themselves in any way.
+This mod tags approximately 1000 lines of in-game text to show the possible outcomes of various choices and events. No information is displayed that can't otherwise be found in the game files, or from Googling dialogue. It doesn't effect the gameplay mechanics themselves in any way.
 
 Tags include: 
 * Choice outcomes, including Blue Options
