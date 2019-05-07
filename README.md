@@ -98,7 +98,7 @@ The fleet is delayed by 2 jumps
 
 * Engi Hacker [ 10M 4D 3-6C ]
 
-Enemy ship names have also been tagged. For instance, the Engi Hacker has 10 missiles, 4 drone parts, and between 3 and 6 crewmembers.
+Enemy ship names have also been tagged. For instance, the Engi Hacker starts with 10 missiles, 4 drone parts, and between 3 and 6 crewmembers.
 
 ## Quests
 To save space, Quests are generally tagged by name and not outcome. For reference, here is a list of all Quest beacon outcomes:
