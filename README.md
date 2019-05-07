@@ -11,6 +11,7 @@ Tags include:
 * Enemy ship classes
 * Weapon effect (breach/stun/fire) chances (added to weapon descriptions)
 * Beacon count (Stores/Empty/Nebula etc) per sector type (added to the first beacon of each sector)
+* Enemy ship missile, drone and potential crew count
 
 This mod is useful for players wanting to learn the possible results of ingame events. It is also useful for players wanting to play optimally without having to refer to the wiki or XML diving.
 
@@ -94,6 +95,10 @@ A ship fight against a Pirate class ship. Killing the ship gives medium scrap + 
 * [ Fleet-- ]
 
 The fleet is delayed by 2 jumps
+
+* Engi Hacker [ 10M 4D 3-6C ]
+
+Enemy ship names have also been tagged. For instance, the Engi Hacker has 10 missiles, 4 drone parts, and between 3 and 6 crewmembers.
 
 ## Quests
 To save space, Quests are generally tagged by name and not outcome. For reference, here is a list of all Quest beacon outcomes:
