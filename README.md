@@ -18,6 +18,7 @@ This mod is useful for players wanting to learn the possible results of ingame e
 ## Notes
  * To avoid giving players an unfair advantage, some dialogue remains untagged or tagged ambiguously. For example the outcomes of the real/decoy Rebel ship fights in the Engi Homeworlds quest, or the 'moon counting' event.
  * I'm unsure what the 'chance', 'min', 'max', and 'timer' values actually mean for surrenders and escapes, but have tagged them anyway 'as is' from the XMLs.
+ * Weapon effect chances are 'as is' from the XMLs. The chances are 'on-roll' rather than 'on-hit'. Fires are rolled for first. Breaches are then rolled for should fires fail.
  * Works with FTL v1.6. For FTL v1.5.13, use [this](https://github.com/thrnz/FTLEventTags).
  * Languages other than English aren't supported
  * Consistent with FTL v1.6.9
