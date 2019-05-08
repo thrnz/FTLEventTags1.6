@@ -393,7 +393,7 @@
 <text name="event_CRYSTAL_SCRAP_EXCITED_c1_c1_choice">Accept. [ CrystalCrew+ ]</text>
 <text name="event_CRYSTAL_SCRAP_EXCITED_c1_c2_choice">Request another payment. [ Crystal Bomb | Crystal Burst 2 ]</text>
 <text name="event_CRYSTAL_SCRAP_EXCITED_c2_choice">Turn him down. [ Nil ]</text>
-<text name="event_CRYSTAL_SHIP_SURRENDER_7_c1_choice">Yes. [ CrystalCrew+]</text>
+<text name="event_CRYSTAL_SHIP_SURRENDER_7_c1_choice">Yes. [ CrystalCrew+ ]</text>
 <text name="event_CRYSTAL_SHIP_SURRENDER_7_c2_choice">No. [ RStuff ]</text>
 <text name="event_START_BEACON_CRYSTAL_c1_text">"You have done as you promised and so shall I. The coordinates of my old ship have been forwarded to your navigation system." [ 2-3 Stores, 2 Items, 2 Empty, 6-10 Hostile, 1-2 Boarders, 12 Neutral ] [ Crystal Unlock Quest ]</text>
 <text name="text_CRYSTAL_FIGHT_1">You arrive near a fleet of crystal ships, civilian or mercantile from the looks of them. You pause to scan one but they react immediately and send an escort to fight you off. Prepare to engage! [ Cry SF DR; S: 0.6, 3-4 [ x2 Nil | x4 RStuff | RStuff or CrystalCrew+ ] ]</text>
