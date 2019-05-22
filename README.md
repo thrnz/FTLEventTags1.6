@@ -145,7 +145,7 @@ To save space, Quests are generally tagged by name and not outcome. For referenc
   * [ Nil | Mts SF K: MStd, CK: HStd ] or [ Missile Weapon BO: -1 Miss, Mts SF K: MStd, CK: HStd ] or [2 Fire Bomb BO: -2 Miss, HStuff, EngiCrew+ ]
 * Merchant Delivery
   * -5 Drones for 20-30 Scrap or [ -5 Drones for 40-55 Scrap or Nil ] or MindControl BO: -5 Drones for 40-55 Scrap or Lvl6 Weapons BO: -5 Drones for 55-75 Scrap 2-3 Fuel
-  * [ MDrones | Crew+, 3-4 Human Boarders | Crew- (CB-), avoid w/Lvl 2+ Medbay ] or AP Drone BO: [ x2 -1 Drone | -1 Drone, MStd ]
+  * [ MDrones | Crew+, 3-4 Human Boarders | Crew- (CB-), avoid w/Lvl 2+ Medbay ] or Nil or AP Drone BO: [ x2 -1 Drone | -1 Drone, MStd ]
 * Merchant Investigate
   * MStd, [ MScrapDrone Quest or [ Weapon | HStd | MScrapDrone Quest ] ]
   * Crew+ MScrapDrone Quest or [ Weapon | HStd | MScrapDrone Quest ] or Teleport BO: [ Weapon | HStd | MScrapDrone Quest ]
