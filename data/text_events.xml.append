@@ -306,6 +306,7 @@
 <text name="event_ZOLTAN_CREW_STUDY_c2_choice">Decline. [ Nil ]</text>
 <text name="event_ZOLTAN_CREW_STUDY_c3_choice">(Advanced Medbay) Give them your medical records. [ Drone, LStuff ]</text>
 <text name="event_ZOLTAN_CREW_STUDY_c4_choice">(Damaged Stasis Pod) Ask if they can fix this. [ CrystalCrew+ ]</text>
+<text name="event_ZOLTAN_CREW_STUDY_LIST_3_text">As soon as you dock, pirates burst on board and a hostile ship appears on the radar. You hear the Zoltans yell in the distance, "We're being held hostage!" [ 2 Boarders, Prt SF K: MStd; CK: HStd; DB: LStuff, Drone ]</text>
 <text name="ship_DONOR_MANTIS_CHASE1_escape_text">You pick up more chatter from the enemy ship, "You know what... Forget this. Prepare for retreat!" Looks like they're preparing to make a hasty get away! [ K: MStd, CK: HStd, Esc: 5s, Mantis Chase Quest ]</text>
 <text name="ship_DONOR_MANTIS_CHASE1_gotaway_c1_choice">After them! [ Mantis Quest Chase ]</text>
 <text name="ship_DONOR_MANTIS_CHASE1_gotaway_c2_choice">Forget it. [ Nil ]</text>
