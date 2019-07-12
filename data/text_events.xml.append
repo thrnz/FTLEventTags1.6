@@ -252,6 +252,7 @@
 <text name="event_MERCHANT_REQUEST_LIST_1_c2_choice">Decline. [ Nil ]</text>
 <text name="event_MERCHANT_REQUEST_LIST_2_c1_text">"At least you're confident, for what little that's worth. Here is their last known location." [ Merchant Investigate Quest ]</text>
 <text name="event_PIRATE_CIVILIAN_BEACON_c1_choice">Aid the civilian ship. [ Prt SF K: MStd; CK: HStd; DB: [ Crew+ | MStd | LStd | LWeap | +5 Hull | Nil ] ]</text>
+<text name="event_PIRATE_CIVILIAN_BEACON_c1_text">You power up your weapons and engage the pirate ship. [ Prt SF K: MStd; CK: HStd; DB: [ Crew+ | MStd | LStd | LWeap | +5 Hull | Nil ] ]</text>
 <text name="event_PIRATE_CIVILIAN_BEACON_c2_choice">Stay out of it. [ Nil ]</text>
 <text name="event_PIRATE_CIVILIAN_BEACON_c3_choice">(Improved Weapons) Fire a warning shot from your strongest weapon. [ Straight to Double | Same as 'Aid the civilian ship' ]</text>
 <text name="event_PIRATE_STATION_CROPS_c1_choice">Attack the pirate. [ Prt SF K: MStd; CK: MStd; DB: LStuff; S: 0.5, 2-4, MStuff; Esc: 0.5, 3-4 ]</text>
@@ -277,6 +278,7 @@
 <text name="event_QUEST_STORE_RESCUE_c1_choice">Engage the Rebel and rescue the space dock. [ Rbl SF K: MScrap; CK: MScrap; DB: [ +5 Hull, Store ] ]</text>
 <text name="event_QUEST_STORE_RESCUE_c2_choice">Avoid a fight. [ Nil ]</text>
 <text name="event_REBEL_VS_FEDERATION_c1_choice">Aid the Federation ship. [ Rbl SF K: MStd; CK: MStd; DB: [ Hidden Federation Base Quest | MStd | LStd, Crew+, BOs for more ] ]</text>
+<text name="event_REBEL_VS_FEDERATION_c1_text">You power up your weapons and engage the Rebel ship. [ Rbl SF K: MStd; CK: MStd; DB: [ Hidden Federation Base Quest | MStd | LStd, Crew+, BOs for more ] ]</text>
 <text name="event_REBEL_VS_FEDERATION_c2_choice">Use this chance to escape. [ Nil ]</text>
 <text name="event_REBEL_VS_FEDERATION_SAVED_LIST_2_c1_choice">Quickly try to rescue the crew. [ Crew+, LStd ]</text>
 <text name="event_REBEL_VS_FEDERATION_SAVED_LIST_2_c2_choice">(Nano Med-bot Dispersal) Pump their ship with Nano Med-bots to aid in the rescue. [ Crew+ w/Shield skill, HScrapFuel ]</text>
@@ -685,6 +687,7 @@
 
 <!-- data/events_rebel.xml -->
 <text name="event_AUTO_CIVILIAN_c1_choice">Aid the civilian ship. [ Auto SF K: LStd, CK: MStd, DB: [ Crew+ | MStd | LStd | LScrapWeapon | +5 Hull | Nil ] ]</text>
+<text name="event_AUTO_CIVILIAN_c1_text">You power up your weapons and engage the automated ship. [ Auto SF K: LStd, CK: MStd, DB: [ Crew+ | MStd | LStd | LScrapWeapon | +5 Hull | Nil ] ]</text>
 <text name="event_AUTO_CIVILIAN_c2_choice">Stay out of it. [ Nil ]</text>
 <text name="event_AUTO_DEFENSE_ITEM_c1_choice">Attack the automated ship to get to the storage cache. [ Auto SF K: MScrap, DB: [ LScrapDrone | Nil | LScrapWeapon | MStuff ] ]</text>
 <text name="event_AUTO_DEFENSE_ITEM_c2_choice">Avoid provoking the ship. [ Nil ]</text>
@@ -972,7 +975,9 @@
 <text name="event_ZOLTAN_CREW_SCAN_LIST_2_c2_choice">Refuse and fight. [ Ztn SF 2-4 Zoltan Boarders, Weapons@half, K: LStd, CK: MStd ]</text>
 <text name="event_ZOLTAN_CREW_SCAN_LIST_2_c2_text">You're not going to leave anyone behind. You pull away from the station with the enemy guards on board. Unfortunately, they are able to sabotage your weapon system in the chaos. It's time to leave! [ Ztn SF 2-4 Zoltan Boarders, Weapons@half, K: LStd, CK: MStd ]</text>
 <text name="event_ZOLTAN_DISTRESS_MANTIS_c1_choice">Interfere and save the Mantis ship. [ Ztn SF w/Asteroids K: LStd, CK: MStd ]</text>
+<text name="event_ZOLTAN_DISTRESS_MANTIS_c1_text">Sometimes you have to bet on the underdog - even on the rare occasions that the underdog is a Mantis warship. You set off for the heart of the asteroid field and engage the Zoltan there. [ Ztn SF w/Asteroids K: LStd, CK: MStd ]</text>
 <text name="event_ZOLTAN_DISTRESS_MANTIS_c2_choice">Interfere and help the Zoltan ship. [ Mts SF w/Asteroids K: LStd, CK: MStd ]</text>
+<text name="event_ZOLTAN_DISTRESS_MANTIS_c2_text">You overtake the Zoltan and catch up with the Mantis ship in the asteroid belt. Time to make some friends. [ Mts SF w/Asteroids K: LStd, CK: MStd ]</text>
 <text name="event_ZOLTAN_DISTRESS_MANTIS_c3_choice">Don't interfere. [ Nil ]</text>
 <text name="event_ZOLTAN_ENGI_text">You jump into a debris field that used to be a Zoltan cruiser. Unfortunately, its Engi escort takes you for the attacker and retaliates! They refuse all hails. [ Eng SF DR ]</text>
 <text name="event_ZOLTAN_LIFERAFT_c1_choice">Engage the pirates. [ PZtn SF K: [ MStd, Trade -40 Scrap for Zoltan Crew ] CK: [ HScrapAugment ] ]</text>
