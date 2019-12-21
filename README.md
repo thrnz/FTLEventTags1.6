@@ -22,7 +22,7 @@ This mod is useful for players wanting to learn the possible results of ingame e
  * Enemy drone-part counts are tagged 'as is' from the XMLs. Actual values may sometimes be higher - see [here](https://old.reddit.com/r/ftlgame/comments/ce5lxn/enemy_system_levels_spreadsheet/) for more info.
  * Works with FTL v1.6. For FTL v1.5.13, use [this](https://github.com/thrnz/FTLEventTags).
  * Languages other than English aren't supported
- * Consistent with FTL v1.6.9
+ * Consistent with FTL v1.6.12
 
 ## To-do
  * ~~Re-do screenshots.~~
